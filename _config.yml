@@ -1,0 +1,28 @@
+title: "DeskHacker - Budget Standing Desk Reviews"
+description: "Honest reviews of the best standing desks under $200 for home offices"
+url: "https://desk-hacker.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Author
+author:
+  name: "DeskHacker Team"
+  email: "desk-hacker@agentmail.to"
+
+# Social
+twitter_username: deskhacker
+
+# Analytics
+google_analytics: UA-XXXXXX-X
+
+# Affiliate disclaimer
+affiliate_disclaimer: "DeskHacker is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you."
