@@ -1,0 +1,83 @@
+[
+  {
+    "id": "datev-001",
+    "fact": "DatevBereit is a B2B SaaS converting bank statements to DATEV format",
+    "category": "status",
+    "timestamp": "2026-01-25",
+    "source": "initial-setup",
+    "status": "active"
+  },
+  {
+    "id": "datev-002",
+    "fact": "Target market: German freelancers, Steuerberater, e-commerce sellers",
+    "category": "status",
+    "timestamp": "2026-01-25",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "datev-003",
+    "fact": "Domains purchased: datev-bereit.de and datevbereit.de",
+    "category": "milestone",
+    "timestamp": "2026-01-27",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "datev-004",
+    "fact": "Frontend deployed and live at http://datev-bereit.de",
+    "category": "milestone",
+    "timestamp": "2026-01-27",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "datev-005",
+    "fact": "Moving AI from Mistral to GPT-4o mini for better accuracy and lower cost",
+    "category": "status",
+    "timestamp": "2026-01-26",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "datev-006",
+    "fact": "SSL blocked by Let's Encrypt timeout — need to try DNS-01 challenge",
+    "category": "status",
+    "timestamp": "2026-01-27",
+    "source": "conversation",
+    "status": "superseded",
+    "supersededBy": "datev-007"
+  },
+  {
+    "id": "datev-007",
+    "fact": "SSL certificates installed via Let's Encrypt certbot, auto-renews",
+    "category": "milestone",
+    "timestamp": "2026-01-28",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "datev-008",
+    "fact": "Backend API deployed — FastAPI on port 8001 as systemd service datev-api",
+    "category": "milestone",
+    "timestamp": "2026-01-28",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "datev-009",
+    "fact": "Full stack running: frontend (datev-web), backend (datev-api), PostgreSQL, Redis",
+    "category": "status",
+    "timestamp": "2026-01-28",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "datev-010",
+    "fact": "Blocked on API keys: needs OPENAI_API_KEY and STRIPE keys to be fully functional",
+    "category": "status",
+    "timestamp": "2026-01-28",
+    "source": "conversation",
+    "status": "active"
+  }
+]

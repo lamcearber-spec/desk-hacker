@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- V5 — Pure mountain with subtle R in negative space -->
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#0f0f1a"/>
+  
+  <!-- Main mountain - single clean peak -->
+  <polygon points="200,45 85,210 315,210" fill="#FFD700"/>
+  
+  <!-- Right shadow face -->
+  <polygon points="200,45 315,210 200,210" fill="#D4A300"/>
+  
+  <!-- R cutout / negative space forming the letter -->
+  <polygon points="200,90 175,130 175,210 145,210 145,130 120,170 100,155" fill="#0f0f1a"/>
+  
+  <!-- R leg cutout -->
+  <polygon points="180,145 215,210 175,210" fill="#0f0f1a"/>
+  
+  <!-- Snow cap -->
+  <polygon points="200,45 188,72 200,65 212,72" fill="#FFFEF0"/>
+  
+  <!-- Text -->
+  <text x="200" y="260" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#FFD700" text-anchor="middle" letter-spacing="10">RADOM</text>
+</svg>

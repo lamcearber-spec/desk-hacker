@@ -1,0 +1,26 @@
+[
+  {
+    "id": "fb-001",
+    "fact": "FamilyBoarding is a mobile app for family boarding pass management",
+    "category": "status",
+    "timestamp": "2026-01-25",
+    "source": "initial-setup",
+    "status": "active"
+  },
+  {
+    "id": "fb-002",
+    "fact": "Built with React Native/Expo",
+    "category": "status",
+    "timestamp": "2026-01-25",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "fb-003",
+    "fact": "MVP complete, pending app store launch",
+    "category": "milestone",
+    "timestamp": "2026-01-27",
+    "source": "conversation",
+    "status": "active"
+  }
+]

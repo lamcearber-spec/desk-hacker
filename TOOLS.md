@@ -1,0 +1,115 @@
+# TOOLS.md - Local Notes
+
+Skills define *how* tools work. This file is for *your* specifics — the stuff that's unique to your setup.
+
+## X/Twitter (bird CLI)
+
+- **Account:** @Arber__L
+- **Auth:** Cookies stored in ~/.bashrc as AUTH_TOKEN and CT0
+- **Usage:** `source ~/.bashrc && bird <command>`
+- **Setup date:** 2026-01-25
+
+## Browser
+
+- **Chrome path:** /root/.cache/puppeteer/chrome/linux-144.0.7559.96/chrome-linux64/chrome
+- **Note:** X blocks headless browsers, use bird CLI instead
+
+## Email (himalaya) ⚠️ NEEDS CONFIG
+
+- **Binary:** /usr/local/bin/himalaya (v1.1.0)
+- **Config needed:** ~/.config/himalaya/config.toml
+- **Status:** Installed, awaiting email credentials from Arber
+
+To configure:
+```bash
+himalaya account configure  # Interactive wizard
+```
+
+Or manually create ~/.config/himalaya/config.toml with IMAP/SMTP settings.
+
+## Summarize ✅ READY
+
+- **Binary:** /usr/bin/summarize
+- **Usage:** `summarize "https://url" --model google/gemini-3-flash-preview`
+- **Keys:** Uses ANTHROPIC_API_KEY or GEMINI_API_KEY from env
+
+## Claude Code ✅ READY
+
+- **Binary:** /root/.local/bin/claude
+- **Usage:** See coding-agent skill
+- **Note:** Always use `pty:true` when running
+
+### CLAUDE.md Instructions for Bash Behavior (PASS BEFORE EVERY PROMPT)
+
+**Avoid output buffering issues:**
+
+1. **Don't pipe through:** `head`, `tail`, `less`, `more`
+2. **Let commands complete fully** or use `--max-lines` flags
+3. **Read log files directly** instead of tailing
+4. **Run commands without pipes** when possible
+5. **Use command-specific flags:**
+   - ✅ `git log -n 10` instead of ❌ `git log | head -10`
+   - ✅ `grep -m 10` instead of ❌ `grep | head -10`
+6. **Avoid chained pipes** that buffer indefinitely
+
+## Notion ⚠️ NEEDS CONFIG
+
+- **Config dir:** ~/.config/notion/ (created)
+- **Status:** Awaiting API key from Arber
+
+To configure:
+1. Create integration at https://notion.so/my-integrations
+2. Save key: `echo "ntn_xxx" > ~/.config/notion/api_key`
+3. Share pages with the integration
+
+## AgentMail ✅ READY
+
+- **Email:** madmax@agentmail.to
+- **Display Name:** Max
+- **API Key:** Stored in ~/.bashrc as AGENTMAIL_API_KEY
+- **SDK:** Python venv at /tmp/agentmail_env (or use REST API)
+- **Docs:** https://docs.agentmail.to
+- **Setup date:** 2026-01-29
+
+## Reddit ✅ READY
+
+- **Username:** MadMaxInDaHaus
+- **Email:** madmax@agentmail.to
+- **Password:** Datevbereit2026!
+- **Auth:** OAuth token in ~/.config/reddit/auth.json
+- **API:** Use Bearer token with oauth.reddit.com
+- **Purpose:** Organic marketing for DatevBereit, FamilyBoarding, ReturnCat
+- **Strategy:** /root/clawd/projects/marketing/reddit-strategy.md
+- **Proxy:** Tailscale exit node through desktop-09j1ffk (Arber's Windows)
+- **User-Agent required:** Yes (always include browser UA)
+- **Setup date:** 2026-01-29
+
+## Tailscale ✅ READY
+
+- **This machine:** radom1 (100.92.81.48)
+- **Exit node:** desktop-09j1ffk (100.77.8.37) — Arber's Windows PC
+- **Purpose:** Residential IP for Reddit access
+- **Activate exit node:** `tailscale up --exit-node=desktop-09j1ffk`
+- **Verify:** `curl -s ifconfig.me` should show 92.208.108.68
+- **Setup date:** 2026-01-29
+
+## DATEV Community ✅ READY
+
+- **Username:** maddie
+- **Email:** madmax@agentmail.to
+- **Password:** Madmax2026!
+- **URL:** https://www.datev-community.de/
+- **Purpose:** Engage with German accountants/bookkeepers for DatevBereit
+- **Setup date:** 2026-01-29
+
+## App Store Connect CLI (asc) 🆕 TO INSTALL
+
+- **What:** CLI for managing App Store Connect — reviews, submissions, metadata
+- **Why:** Automate app submissions, respond to rejections, manage review workflow
+- **Install:** `brew install Codemagic-CLI-Tools` or check https://github.com/appstoreconnect-swift-sdk
+- **Relevant for:** FamilyBoarding, any future iOS apps
+- **Source:** https://x.com/rudrank/status/2016172427626352664
+
+---
+
+*Updated: 2026-01-28*

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Clean minimal mountain with R integrated -->
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#0f0f1a"/>
+  
+  <!-- Mountain peak - stylized R shape -->
+  <!-- Left slope -->
+  <polygon points="200,50 100,200 140,200 200,110" fill="#FFD700"/>
+  
+  <!-- Right slope -->
+  <polygon points="200,50 300,200 260,200 200,110" fill="#E6B800"/>
+  
+  <!-- R horizontal bar (mountain ridge) -->
+  <polygon points="200,110 270,160 250,180 200,140 150,180 130,160" fill="#FFD700"/>
+  
+  <!-- R leg (mountain spur) -->
+  <polygon points="220,145 290,220 250,220 200,160" fill="#FFC107"/>
+  
+  <!-- Snow cap / highlight -->
+  <polygon points="200,50 180,85 200,75 220,85" fill="#FFFFFF" opacity="0.9"/>
+  
+  <!-- Text -->
+  <text x="200" y="265" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#FFD700" text-anchor="middle" letter-spacing="12">RADOM</text>
+</svg>

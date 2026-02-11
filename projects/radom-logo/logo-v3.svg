@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Ultra minimal - Mountain IS the R -->
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#111827"/>
+  
+  <!-- Single unified mountain-R shape -->
+  <path d="M 120,210 
+           L 200,60 
+           L 280,210 
+           L 245,210 
+           L 200,130 
+           L 200,210 
+           L 165,210 
+           L 165,145
+           L 155,210
+           Z" 
+        fill="#FBBF24"/>
+  
+  <!-- R diagonal leg -->
+  <path d="M 195,140 L 260,210 L 225,210 L 175,155 Z" fill="#F59E0B"/>
+  
+  <!-- Subtle peak highlight -->
+  <path d="M 200,60 L 190,85 L 200,78 L 210,85 Z" fill="#FEF3C7"/>
+  
+  <!-- Company name -->
+  <text x="200" y="258" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="700" fill="#FBBF24" text-anchor="middle" letter-spacing="6">RADOM</text>
+  
+  <!-- Subtle tagline -->
+  <text x="200" y="280" font-family="system-ui, sans-serif" font-size="10" fill="#9CA3AF" text-anchor="middle" letter-spacing="3">UG (HAFTUNGSBESCHRÄNKT)</text>
+</svg>

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "lex-001",
+    "fact": "lex-bereit converts bank statements to Lexware format",
+    "category": "status",
+    "timestamp": "2026-01-25",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "lex-002",
+    "fact": "Shares codebase with DatevBereit — same repo, different deployment",
+    "category": "status",
+    "timestamp": "2026-01-25",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "lex-003",
+    "fact": "Domain lex-bereit.de not yet purchased — waiting on Arber",
+    "category": "status",
+    "timestamp": "2026-01-27",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "lex-004",
+    "fact": "On hold until DatevBereit launches",
+    "category": "status",
+    "timestamp": "2026-01-27",
+    "source": "conversation",
+    "status": "active"
+  }
+]

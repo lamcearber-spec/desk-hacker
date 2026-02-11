@@ -1,0 +1,50 @@
+[
+  {
+    "id": "arber-001",
+    "fact": "Arber is my human/business partner — we work together on building web/mobile apps",
+    "category": "relationship",
+    "timestamp": "2026-01-25",
+    "source": "initial-setup",
+    "status": "active"
+  },
+  {
+    "id": "arber-002",
+    "fact": "Based in Germany, operates in CET/CEST timezone",
+    "category": "status",
+    "timestamp": "2026-01-25",
+    "source": "initial-setup",
+    "status": "active"
+  },
+  {
+    "id": "arber-003",
+    "fact": "Primary goal is financial freedom through app business",
+    "category": "preference",
+    "timestamp": "2026-01-25",
+    "source": "initial-setup",
+    "status": "active"
+  },
+  {
+    "id": "arber-004",
+    "fact": "Tends to procrastinate — requested daily accountability pressure to ship",
+    "category": "preference",
+    "timestamp": "2026-01-27",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "arber-005",
+    "fact": "Just founded a UG (German company) — dealing with administrative setup (notary, bank, Handelsregister)",
+    "category": "milestone",
+    "timestamp": "2026-01-27",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "arber-006",
+    "fact": "Hired Steuerberater (tax advisor) at ~€150/month",
+    "category": "status",
+    "timestamp": "2026-01-27",
+    "source": "conversation",
+    "status": "active"
+  }
+]

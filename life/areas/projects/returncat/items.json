@@ -1,0 +1,26 @@
+[
+  {
+    "id": "rc-001",
+    "fact": "ReturnCat is a mobile app for tracking product returns with reminders",
+    "category": "status",
+    "timestamp": "2026-01-25",
+    "source": "initial-setup",
+    "status": "active"
+  },
+  {
+    "id": "rc-002",
+    "fact": "Built with React Native/Expo",
+    "category": "status",
+    "timestamp": "2026-01-25",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "rc-003",
+    "fact": "MVP complete, pending app store launch",
+    "category": "milestone",
+    "timestamp": "2026-01-27",
+    "source": "conversation",
+    "status": "active"
+  }
+]

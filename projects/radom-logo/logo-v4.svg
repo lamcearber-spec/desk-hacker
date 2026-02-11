@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- V4 — Clean mountain-R, no ridge line -->
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#0f0f1a"/>
+  
+  <!-- Left slope of mountain -->
+  <polygon points="200,50 95,200 155,200 200,115" fill="#FFD700"/>
+  
+  <!-- Right slope of mountain -->
+  <polygon points="200,50 305,200 245,200 200,115" fill="#E6B800"/>
+  
+  <!-- R leg (diagonal coming off the mountain) -->
+  <polygon points="215,130 295,220 240,220 185,150" fill="#FFC107"/>
+  
+  <!-- Snow cap highlight -->
+  <polygon points="200,50 185,80 200,70 215,80" fill="#FFFFFF" opacity="0.85"/>
+  
+  <!-- Text -->
+  <text x="200" y="262" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#FFD700" text-anchor="middle" letter-spacing="10">RADOM</text>
+</svg>
