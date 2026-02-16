@@ -8,6 +8,16 @@
 # Projects (have their own repos)
 projects/
 
+# Embedded repos & tools
+moltbot-agent-ui/
+tools/
+
+# Python venvs
+polymarket_env/
+*_env/
+venv/
+.venv/
+
 # Node modules & build artifacts
 node_modules/
 .next/
@@ -18,11 +28,13 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Embedded repos & tools
-moltbot-agent-ui/
-tools/
-
 # Large/temp files
 *.log
 *.tmp
 *.swp
+
+# Scripts (non-essential)
+scripts/
+
+# Browser artifacts
+reddit-stealth-login.js
