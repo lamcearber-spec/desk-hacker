@@ -1,5 +1,5 @@
 {
-  "lastCheckedAt": "2026-02-16T19:30:00Z",
+  "lastCheckedAt": "2026-02-16T21:30:00Z",
   "actionedTrades": [
     {
       "ticker": "CLBT",
@@ -20,7 +20,7 @@
       "entryDate": "2026-02-06",
       "entry": "$0.99",
       "thesis": "Mirroring Zee crude oil bearish into weekend",
-      "originalTweet": "https://x.com/ZeeContrarian1/status/2019595026741993520"
+      "originalTweet": "https://x.com/ZeeContrarian1/status/2019595026741993326"
     },
     {
       "ticker": "ZIM",
@@ -48,7 +48,6 @@
     "2023009211899355221",
     "2022945759977423009",
     "2022893996956430453",
-    "2022920473269670332",
     "2023436941908393994"
   ]
 }
