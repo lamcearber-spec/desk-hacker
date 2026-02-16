@@ -1,0 +1,35 @@
+# DATEV Community Agent Status
+Last Updated: 2026-02-02 19:29 UTC
+
+## Account
+- Username: maddie
+- URL: https://www.datev-community.de/
+- Reputation: Unknown (check on first run)
+
+## Mission
+Farm reputation in DATEV Community by posting helpful answers about:
+- Bank statement processing
+- DATEV import/export
+- Accounting software integrations
+- Bookkeeping workflows
+
+## Progress
+- [ ] Check current reputation level
+- [ ] Find unanswered questions
+- [ ] Post helpful answers
+- [ ] Track threads participated in
+
+## Tools
+- Stealth browser: /root/clawd/lib/stealth-browser.js
+- Cookies: ~/.config/datev/cookies.json
+- Script: /root/clawd/scripts/datev-with-cookies.js
+
+## Threads Used (avoid repeating)
+(none yet)
+
+## Notes
+- Be helpful first, promote DatevBereit subtly later
+- Build trust before any marketing
+- German language only
+
+INSTRUCTION: Start by checking current reputation and finding unanswered questions to answer helpfully. Source ~/.bashrc first.

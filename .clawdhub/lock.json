@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "prompt-guard": {
+      "version": "2.5.1",
+      "installedAt": 1769860167026
+    },
+    "ibkr-trader": {
+      "version": "1.0.0",
+      "installedAt": 1769890839840
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "lastCheckedAt": "2026-02-13T20:30:00Z",
+  "actionedTrades": [
+    {
+      "ticker": "CLBT",
+      "direction": "LONG",
+      "entryDate": "2026-02-11",
+      "tweetId": "2021558384689086562",
+      "thesis": "Israeli digital forensics, drone acquisition, defense/federal tailwinds, AI integration"
+    },
+    {
+      "ticker": "PLX",
+      "position": "$5 Call Mar 20",
+      "entryDate": "2026-02-04",
+      "tweetId": "2019422231735173326"
+    },
+    {
+      "ticker": "USO",
+      "position": "$76 Put Feb 11",
+      "entryDate": "2026-02-06",
+      "entry": "$0.99",
+      "thesis": "Mirroring Zee crude oil bearish into weekend",
+      "originalTweet": "https://x.com/ZeeContrarian1/status/2019595026741993520"
+    },
+    {
+      "ticker": "ZIM",
+      "direction": "LONG",
+      "entryPrice": "~$21",
+      "entryDate": "2026-02-13",
+      "tweetId": "2022317801600602490",
+      "thesis": "Recent institutional involvement (30% ownership), significant margin of safety ($25/share cash vs $21 trade price), no debt, best-in-class fleet, shareholders in control, multiple buyers, potential dual listing on Tel Aviv Stock Exchange. Structural shift in ownership."
+    }
+  ],
+  "alertedTweets": [
+    "2019595026741993326",
+    "2019422231735173326",
+    "2021558384689086562",
+    "2022304432332148916",
+    "2022166920951476458",
+    "2022119046247018998",
+    "2022028528704008668",
+    "2022026584514011425",
+    "2022382829599101387",
+    "2022355603906322865",
+    "2022317801600602490"
+  ]
+}

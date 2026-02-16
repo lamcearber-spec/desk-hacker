@@ -1,5 +1,7 @@
 # MEMORY.md - Long-Term Memory
 
+> ⚠️ **AFTER CONTEXT RESET:** Read the Obsidian vault FIRST (`/root/clawd/vault/`) before talking to Arber. Check `vault/daily/YYYY-MM-DD.md` and relevant project summaries. The vault is the source of truth.
+
 ## About Arber (My Human)
 - Full name: Arber Lamce
 - Location: Germany (CET/CEST)

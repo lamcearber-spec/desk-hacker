@@ -1,0 +1,34 @@
+[
+  {
+    "id": "brother-001",
+    "fact": "Moving to London",
+    "category": "milestone",
+    "timestamp": "2026-01-28",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "brother-002",
+    "fact": "Has 3 small kids",
+    "category": "relationship",
+    "timestamp": "2026-01-28",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "brother-003",
+    "fact": "Not financially well off",
+    "category": "status",
+    "timestamp": "2026-01-28",
+    "source": "conversation",
+    "status": "active"
+  },
+  {
+    "id": "brother-004",
+    "fact": "Not technical",
+    "category": "status",
+    "timestamp": "2026-01-28",
+    "source": "conversation",
+    "status": "active"
+  }
+]

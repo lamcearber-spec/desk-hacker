@@ -1,0 +1,3 @@
+Status: Blocked
+Reason: Missing BRAVE_API_KEY for web_search and Twitter credentials for bird CLI. Cannot perform further web or social media research.
+Action Taken: Processed existing `/root/clawd/life/areas/projects/eth-accumulation/opportunities.md` file and re-formatted immediately actionable opportunities. Waiting for credentials to be provided.

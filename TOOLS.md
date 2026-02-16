@@ -2,6 +2,22 @@
 
 Skills define *how* tools work. This file is for *your* specifics — the stuff that's unique to your setup.
 
+## Obsidian CLI ✅ READY
+
+- **Binary:** /usr/local/bin/obsidian-cli (v0.2.3)
+- **Vault:** /root/clawd/vault
+- **Usage:** `obsidian-cli <command> --vault /root/clawd/vault`
+- **Alias:** `obs` (added to .bashrc)
+- **Commands:** list, search, search-content, print, create, move, delete, daily
+- **Setup date:** 2026-02-11
+
+Examples:
+```bash
+obsidian-cli list --vault /root/clawd/vault
+obsidian-cli print "projects/datev-bereit/summary" --vault /root/clawd/vault
+obsidian-cli search-content "keyword" --vault /root/clawd/vault
+```
+
 ## X/Twitter (bird CLI)
 
 - **Account:** @Arber__L
@@ -12,6 +28,9 @@ Skills define *how* tools work. This file is for *your* specifics — the stuff 
 ## Browser
 
 - **Chrome path:** /root/.cache/puppeteer/chrome/linux-144.0.7559.96/chrome-linux64/chrome
+- **Browserbase:** ✅ PAID — cloud browser sessions for JS-heavy/auth sites
+- **API Key:** In ~/.bashrc as BROWSERBASE_API_KEY
+- **Use when:** web_fetch fails, need login, need JS rendering
 - **Note:** X blocks headless browsers, use bird CLI instead
 
 ## Email (himalaya) ⚠️ NEEDS CONFIG
@@ -87,10 +106,8 @@ To configure:
 ## Tailscale ✅ READY
 
 - **This machine:** radom1 (100.92.81.48)
-- **Exit node:** desktop-09j1ffk (100.77.8.37) — Arber's Windows PC
-- **Purpose:** Residential IP for Reddit access
-- **Activate exit node:** `tailscale up --exit-node=desktop-09j1ffk`
-- **Verify:** `curl -s ifconfig.me` should show 92.208.108.68
+- **⚠️ NO EXIT NODE** — removed permanently. Site uptime > Reddit proxy.
+- **DO NOT activate any exit node.** It breaks datev-bereit.de routing.
 - **Setup date:** 2026-01-29
 
 ## DATEV Community ✅ READY

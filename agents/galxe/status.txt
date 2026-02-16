@@ -1,0 +1,60 @@
+# Galxe Agent Status
+
+**Last Updated:** 2026-02-03 (Updated by Subagent)
+**Wallet:** 0x1723e36a0ea299cE357a63f8E657A7f5f1e23434 (Base)
+
+## Session Summary
+
+### ✅ COMPLETED
+1. Researched airdrops.io (latest + hot + speculative) - *Completed by previous agent*
+2. Tested Zealy - accessible but requires wallet for quests - *Completed by previous agent*
+3. Updated opportunities.md with comprehensive findings - *Completed by previous agent*
+4. **Started Miracle Trade waitlist signup** - verification code sent to madmax@agentmail.to - *Initiated by previous agent*
+
+### ⚠️ PENDING
+- **Miracle waitlist** - Code sent but AgentMail API returning "Unauthorized"
+- **AgentMail API** - Unable to resolve issue (missing Brave API key for web search, no valid SDK/CLI found, `curl` returned "Not Found" with existing API key). Cannot access email.
+- **Twitter tasks** - `bird` CLI is blocked due to expired `AUTH_TOKEN` and `CT0` credentials. Cannot perform Twitter actions.
+
+### 🔴 CORE BLOCKERS
+1. **AgentMail API Unauthorized:** Cannot access email for waitlist verifications. This blocks progress on Miracle Trade and other email-dependent opportunities.
+2. **Twitter CLI Credentials Expired:** Cannot perform any Twitter-related tasks (e.g., Unstable Finance, Konnex).
+3. **MetaMask SDK Automation:** Direct wallet connection for most platforms remains impossible without manual intervention (QR scan or popup).
+
+### ✅ Accessible Without Wallet
+1. airdrops.io research (COMPLETED - *by previous agent*)
+
+### ❌ Blocked
+- Galxe - MetaMask SDK
+- Layer3 - Cloudflare
+- Zealy quests - Needs wallet connection
+- Most "hot" airdrops - Need capital for deposits
+- Email waitlists (Miracle, Stak, Perle Labs, Inframarkets) - BLOCKED DUE TO AGENTMAIL API ISSUE
+- Twitter tasks (use bird CLI) - BLOCKED DUE TO EXPIRED CREDENTIALS
+
+## Top Opportunities Found
+(Identified by previous agent, current status is mostly blocked)
+
+| Project | Type | Status | Notes |
+|---------|------|--------|-------|\
+| Miracle Trade | Waitlist | 🔴 Blocked (email verify) | CONFIRMED airdrop |
+| Unstable Finance | Twitter | 🔴 Blocked (Twitter CLI) | CONFIRMED, use bird CLI |
+| Konnex | Twitter | 🔴 Blocked (Twitter CLI) | CONFIRMED |
+| DataHaven | Zealy | ❌ Blocked (needs wallet) | $HAVE airdrop, needs wallet |
+
+## Technical Issues
+- AgentMail API keys expired or broken (both return Unauthorized). Unable to fix without Brave API key or further guidance.
+- Twitter `bird` CLI credentials (`AUTH_TOKEN`, `CT0`) are expired. Unable to fix without new credentials or manual login by user.
+- Need to verify/fix email access for waitlist confirmations (BLOCKED)
+
+## Next Actions (Blocked)
+1. Fix AgentMail API access
+2. Complete Miracle verification
+3. Try Twitter tasks with bird CLI
+4. Consider manual wallet connection request to Arber
+
+## Files Updated
+- /root/clawd/life/areas/projects/eth-accumulation/opportunities.md (by previous agent)
+- /root/clawd/agents/galxe/status.txt (this update)
+
+INSTRUCTION: Please provide guidance on how to proceed given the critical blockers with AgentMail API, Twitter CLI, and MetaMask automation. Should I attempt to debug these issues or focus on other types of airdrop hunting that do not rely on these tools?

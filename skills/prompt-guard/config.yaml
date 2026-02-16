@@ -1,0 +1,38 @@
+# Prompt Guard Configuration for Max (Arber's assistant)
+
+prompt_guard:
+  # Balanced detection - not too aggressive
+  sensitivity: medium
+  
+  # Owner user IDs (bypass restrictions)
+  owner_ids:
+    - "+4917699742900"  # Arber's WhatsApp
+  
+  # Actions at each severity level
+  actions:
+    LOW: log
+    MEDIUM: warn
+    HIGH: block
+    CRITICAL: block_notify
+  
+  # Rate limiting
+  rate_limit:
+    enabled: true
+    max_requests: 30
+    window_seconds: 60
+  
+  # Security logging
+  logging:
+    enabled: true
+    path: memory/security-log.md
+    include_message: true
+  
+  # Custom patterns
+  custom_patterns:
+    blocked: []
+    allowed: []
+  
+  # Notifications
+  notifications:
+    critical_dm: true
+    daily_digest: false

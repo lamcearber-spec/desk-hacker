@@ -1,0 +1,28 @@
+# Secrets & credentials
+.env
+.env.*
+*.key
+*.pem
+*.p12
+
+# Projects (have their own repos)
+projects/
+
+# Node modules & build artifacts
+node_modules/
+.next/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Embedded repos & tools
+moltbot-agent-ui/
+tools/
+
+# Large/temp files
+*.log
+*.tmp
+*.swp

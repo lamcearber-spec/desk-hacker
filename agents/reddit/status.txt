@@ -1,0 +1,23 @@
+# Reddit Agent Status
+Last updated: 2026-02-02 19:07 UTC
+
+## Account
+- Username: MadMaxInDaHaus
+- Current karma: ~5+ (building)
+
+## Today's Progress
+- 4 comments posted earlier (13:22-13:58 UTC)
+- Rate limit cooldown expired (was until 14:08 UTC)
+
+## Threads Used (avoid repeating)
+- 1qtsps2, 1qte0un, 1qt9b5l, 1qtsqvx
+
+## Current Status
+- OAuth token EXPIRED - recognized this blocker.
+- Cannot post via API until re-authenticated.
+- Brave Search API key is missing, so I cannot find fresh threads.
+
+## Next Action
+- Waiting for Brave Search API key and Reddit OAuth token to be refreshed.
+
+INSTRUCTION: I am blocked from performing my mission. The Reddit OAuth token needs to be refreshed, and the Brave Search API key needs to be provided. Once these are resolved, I can proceed with finding threads (using `web_fetch`) and posting helpful comments.

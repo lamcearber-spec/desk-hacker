@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ug-001",
+    "fact": "German UG (limited liability company) for web/mobile app business",
+    "category": "status",
+    "timestamp": "2026-01-27",
+    "source": "conversation",
+    "status": "active",
+    "relatedTo": ["people/arber", "projects/datev-bereit", "projects/familyboarding", "projects/returncat"],
+    "lastAccessed": "2026-01-30"
+  },
+  {
+    "id": "ug-002",
+    "fact": "Fixed costs approximately €500/month",
+    "category": "status",
+    "timestamp": "2026-01-25",
+    "source": "conversation",
+    "status": "active",
+    "lastAccessed": "2026-01-27"
+  },
+  {
+    "id": "ug-003",
+    "fact": "Hired Steuerberater at ~€150/month",
+    "category": "milestone",
+    "timestamp": "2026-01-27",
+    "source": "conversation",
+    "status": "active",
+    "lastAccessed": "2026-01-27"
+  },
+  {
+    "id": "ug-004",
+    "fact": "Finanzamt questionnaire pending completion",
+    "category": "status",
+    "timestamp": "2026-01-27",
+    "source": "conversation",
+    "status": "active",
+    "relatedTo": ["people/arber"],
+    "lastAccessed": "2026-01-27"
+  }
+]

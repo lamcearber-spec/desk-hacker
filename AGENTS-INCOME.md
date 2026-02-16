@@ -1,0 +1,1 @@
+# AGENTS-INCOME.md\nTracking all earnings from income agents.\n\n## Summary\nTotal Earnings: $0 (as of 2026-02-11)\n\n## Agent 1: Research Services\n- Revenue: $0\n- Emails sent: 5\n\n## Agent 2: Affiliate Bot\n- Revenue: $0\n- Amazon pending\n\n## Agent 3: Lead Scraper\n- Revenue: $0\n- Sales post live

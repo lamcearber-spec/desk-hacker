@@ -1,0 +1,5 @@
+#!/bin/bash
+# Stealth browser CLI wrapper
+export PYTHONPATH="/root/clawd/lib:$PYTHONPATH"
+source ~/.bashrc 2>/dev/null  # Load API keys
+/root/.venvs/browser/bin/python -m browser.stealth "$@"

@@ -1,0 +1,11 @@
+timestamp,company,email,template,status
+2026-02-10T20:12:51.138416,TechFlow AI,info@techflow.ai,A,"FAILED: Error: 404 - {""name"":""NotFoundError"",""message"":""Route not found""}"
+2026-02-10T20:12:51.590430,CloudBase Studios,info@cloudbase.io,A,"FAILED: Error: 404 - {""name"":""NotFoundError"",""message"":""Route not found""}"
+2026-02-10T20:12:51.995101,MarketingAI Co,info@marketingai.co,A,"FAILED: Error: 404 - {""name"":""NotFoundError"",""message"":""Route not found""}"
+2026-02-10T20:12:52.181777,Saasido,info@saasido.de,A,"FAILED: Error: 404 - {""name"":""NotFoundError"",""message"":""Route not found""}"
+2026-02-10T20:12:52.371349,Cosuno,info@cosuno.de,A,"FAILED: Error: 404 - {""name"":""NotFoundError"",""message"":""Route not found""}"
+2026-02-10T20:12:52.563152,Kenjo,info@kenjo.io,A,"FAILED: Error: 404 - {""name"":""NotFoundError"",""message"":""Route not found""}"
+2026-02-10T20:12:52.772474,Briive,info@briive.io,B,"FAILED: Error: 404 - {""name"":""NotFoundError"",""message"":""Route not found""}"
+2026-02-10T20:12:53.020223,Filestage,info@filestage.io,B,"FAILED: Error: 404 - {""name"":""NotFoundError"",""message"":""Route not found""}"
+2026-02-10T20:12:53.224027,Inxmail,info@inxmail.de,B,"FAILED: Error: 404 - {""name"":""NotFoundError"",""message"":""Route not found""}"
+2026-02-10T20:12:53.412734,JustRelate,info@justrelate.com,B,"FAILED: Error: 404 - {""name"":""NotFoundError"",""message"":""Route not found""}"

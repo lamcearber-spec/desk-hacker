@@ -1,0 +1,35 @@
+# IBKR Trading Agent Status
+Last Updated: 2026-02-02 20:45 UTC
+
+## Account Status
+- Available Funds: €278.38
+- Net Liquidation: €310.56
+- Total Cash Value: €278.38
+- **Note: Live market data unavailable due to subscription limitations (BRAVE_API_KEY Missing).**
+
+## Current Position
+**ACHR $7 Put (Feb 20, 2026 expiry)**
+- Quantity: 1 contract
+- Cost Basis: $36.53
+- Market Value: $39.48 (Last known value - Live market data currently unavailable)
+- Unrealized P&L: **+$2.95 (+8.1%)**
+- ACHR Stock: $7.19 (Last known value - Live market data currently unavailable)
+
+## Alerts Status
+- [ ] ACHR < $6 → NOT TRIGGERED (at $7.19)
+- [ ] Put doubles to $0.73+ (i.e. put market value per share $0.73) → NOT TRIGGERED (last known at $0.39 per share, assuming market value $39.48 / 100)
+
+## @ZeeContrarian1 Signals (checked 20:45 UTC)
+**Credential Issue Status:**
+- `bird` CLI: **PARTIALLY RESOLVED.** The `bird` CLI supports `--auth-token` and `--ct0` command-line options. Awaiting for these tokens to be securely provided by the main agent.
+- `web_search`: **UNRESOLVED.** Requires `BRAVE_API_KEY`.
+
+**Latest themes from Z:**
+(Not updated due to `bird` CLI credential issues)
+
+**Actionable:** None immediate for ACHR based on Z's feed and last known market data. Twitter monitoring is currently hindered by credential issues.
+
+## Market Schedule
+- US Open: 14:30 UTC
+- US Close: 21:00 UTC
+- Next check: Once `BRAVE_API_KEY` is configured for `web_search` and `AUTH_TOKEN` and `CT0` are provided for `bird` CLI.

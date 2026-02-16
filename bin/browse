@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Stealth browser CLI
+# Usage: browse <url> [profile] [screenshot_path]
+#
+# Examples:
+#   browse https://reddit.com                    # Quick check
+#   browse https://galxe.com galxe              # Use galxe profile
+#   browse https://site.com default /tmp/s.png  # Save screenshot
+
+set -e
+export PYTHONPATH="/root/clawd/lib:$PYTHONPATH"
+source ~/.bashrc 2>/dev/null || true
+
+exec /root/.venvs/browser/bin/python -m browser.stealth "$@"

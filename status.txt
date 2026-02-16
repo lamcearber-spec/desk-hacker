@@ -1,0 +1,9 @@
+AFFILIATE BOT - DAY 1
+Status: STARTING
+
+[ ] Create GitHub repo `standing-desk-deals`
+[ ] Set up Jekyll with clean theme
+[ ] Write first article (2000+ words, comparison table, affiliate links)
+[ ] Push to GitHub Pages
+
+Started: 2026-02-05 09:48 UTC

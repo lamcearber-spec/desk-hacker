@@ -17,17 +17,12 @@ High search volume, clear buyer intent, affordable price point = impulse purchas
 ## Hosting: GitHub Pages
 Free, fast, reliable. Uses Jekyll for static site generation. Custom domain support via CNAME.
 
-## Publishing Status: 1 / 5 articles
-- ✅ Created Jekyll site structure
-- ✅ Published first article: "7 Best Standing Desks Under $200"
-- ⏳ Next: Write "FlexiSpot vs VIVO" comparison
-- ⏳ Apply to Amazon Associates (need site live first)
+## Publishing Status: 5 articles live ✅
 
 ## Next Actions:
-1. Publish site to GitHub Pages (need GitHub account)
-2. Write "FlexiSpot vs VIVO" article
-3. Apply to Amazon Associates program
-4. Build backlinks from Reddit /r/standingdesks
+1. Await Amazon Associates approval.
+2. Write 3 more articles once Amazon approved.
+3. Reddit posting is on hold due to network configuration conflicts.
 
 ## Assets Created:
 - `_config.yml` - Jekyll configuration

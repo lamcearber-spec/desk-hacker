@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "supermemory": {
+      "baseUrl": "https://mcp.supermemory.ai/mcp"
+    }
+  },
+  "imports": []
+}
