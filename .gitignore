@@ -36,5 +36,11 @@ Thumbs.db
 # Scripts (non-essential)
 scripts/
 
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.mkv
+
 # Browser artifacts
 reddit-stealth-login.js
