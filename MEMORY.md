@@ -114,6 +114,7 @@
 - GitHub: Token configured (gh CLI authenticated)
 - X/Twitter: Cookies in ~/.bashrc (AUTH_TOKEN, CT0)
 - Server: Hetzner VPS at 46.224.214.8
+- Platform: **OpenClaw** (formerly Clawdbot) — current version 2026.2.14
 
 ## Working Style
 - Uses Claude Code for development
