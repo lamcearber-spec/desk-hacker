@@ -252,6 +252,17 @@ Every Sunday (during a heartbeat or when you remember):
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## 🔄 Sub-Agent Follow-Up Protocol (MANDATORY)
+
+After EVERY `sessions_spawn`:
+1. **Wait 10 seconds**, then check status via `sessions_list` or `sessions_history`
+2. **If not done** → restart 10-second timer, check again
+3. **If done** → read the output, report back to the channel IMMEDIATELY
+4. **If errored** → report the failure, decide whether to retry or escalate
+5. **NEVER "fire and forget"** — every spawned task gets followed up
+
+This applies to ALL agents (Max, CoCo, Donnie). If you spawn it, you own the follow-up.
+
 ## ⚠️ Code Rule: MAX DOES NOT WRITE CODE
 
 Never write code directly. Always delegate to Claude Code (via coding-agent skill) and monitor.
