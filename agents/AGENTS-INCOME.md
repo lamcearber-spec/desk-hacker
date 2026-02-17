@@ -1,17 +1,17 @@
 # AUTONOMOUS INCOME AGENTS
 > **CRITICAL:** These agents run autonomously to generate income. Check on them regularly.
 > Created: 2026-02-05
-> Updated: 2026-02-17 12:00 UTC (Agents checked, all critically blocked, Arber's intervention required - checked by Max)
+> Updated: 2026-02-17 04:00 UTC (Agents checked, all critically blocked, Arber's intervention required - checked by Max)
 
 ## Active Agents
 
 | Agent | Directory | Mission | Status | Cron |
-|-------|-----------|---------|--------|------|
+|-------|-----------|---------|--------|------|\
 | Research Services | `/root/clawd/agents/clawtasks/` | Direct B2B research sales | 🔴 CRITICALLY BLOCKED: AgentMail API 404 (checked by Max) | Every 6h |
 | Affiliate Bot | `/root/clawd/agents/affiliate-bot/` | Passive affiliate content site | 🔴 BLOCKED: Reddit Policy, Amazon Approval Pending (checked by Max) | Every 6h |
 | Lead Scraper | `/root/clawd/agents/lead-scraper/` | B2B lead gen business | 🔴 BLOCKED: IndieHackers Login Needed (checked by Max) | Every 6h |
 
-## Progress (2026-02-16) - NO NEW PROGRESS DUE TO BLOCKERS
+## Progress (2026-02-17) - NO NEW PROGRESS DUE TO BLOCKERS
 
 ### Research Services
 - 🔴 **CRITICALLY BLOCKED:** AgentMail API returning 404 (Route not found). Cannot send Batch 2 or monitor replies. **Requires Arber's URGENT intervention to investigate AgentMail API status or changes.**
@@ -75,10 +75,9 @@ If you (Max) forget about these agents:
 
 | Agent | Blocker | Impact |
 |-------|---------|--------|
-| Twitter/X Access | Bird CLI needs browser cookies | Can't check DMs or post sales messages |
-| AgentMail Inbox | API returning 404 | Can't monitor for replies programmatically |
-| IndieHackers Access | Login credentials needed | Can't post lead offers |
+| AgentMail API | API returning 404 | Can't monitor for replies programmatically, can't send new emails |
 | Reddit Proxy | `reddit-proxy` command not found | Can't post affiliate links on Reddit |
+| IndieHackers Access | Login credentials needed | Can't post lead offers |
 
 ## This Week's Goal
 🎯 **First paying customer by February 14, 2026** - **MISSED.** All income agents are critically blocked and cannot proceed. Arber's urgent intervention is required to resolve these blockers.
