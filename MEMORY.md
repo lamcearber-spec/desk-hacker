@@ -24,12 +24,14 @@
 - What: Bank statements, Stripe & Shopify payouts → DATEV format converter
 - Target: German freelancers, Steuerberater, e-commerce sellers
 - Stack: Next.js + FastAPI + PostgreSQL + Celery + Docker
-- **Pricing (decided 2026-01-26):**
-  - Free: €0 (1 conversion/mo)
-  - Starter: €5/mo (20 conversions)
-  - Pro: €15/mo (100 conversions) ← target tier
-  - Business: €50/mo (500 conversions)
-- **Goal:** 1,000 Pro subscribers = €15,000 MRR
+- **Pricing (updated 2026-02-18):**
+  - Anonymous: Free (1 page/24h)
+  - Registered: Free (5 pages/24h)
+  - Starter: €20/mo (400 pages)
+  - Professional: €50/mo (1,000 pages)
+  - Business: €99/mo
+  - Enterprise: Contact
+- **First revenue:** €20 from tester (2026-02-17)
 - **AI:** Moving from Mistral → GPT-4o mini (cheaper + more accurate)
 - Status: Testing phase, needs API fixes then deploy
 - Repo: github.com/lamcearber-spec/DatevBereit-Claude
