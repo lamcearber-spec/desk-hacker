@@ -16,6 +16,11 @@
 ## Daily Ship Check (08:00-10:00 UTC)
 - Ask Arber: "What's shipping today?"
 
+## Log Monitoring
+- Check `/var/log/datev-errors.log` for recent errors
+- If errors found, investigate and report to Arber
+- Check `/var/log/uptime-monitor.log` for any FAIL entries
+
 ## Rules
 - Late night (23:00-08:00 CET): HEARTBEAT_OK unless urgent
 - Nothing new since last check: HEARTBEAT_OK
