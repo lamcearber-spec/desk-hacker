@@ -1,5 +1,7 @@
 # Affiliate Bot Agent Status
-Updated: 2026-02-17 12:00 PM UTC (Blocked - Reddit Proxy Missing, Amazon Approval Pending - Checked by Max)
+Updated: 2026-02-18 04:00 AM UTC (Blocked - Reddit Proxy Missing, Amazon Approval Pending - Checked by Max)
+
+**Note:** No progress can be made due to the blockers. Awaiting Arber's urgent intervention.
 
 ## Mission
 Build passive income through automated affiliate content site.
