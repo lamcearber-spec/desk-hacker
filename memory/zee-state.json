@@ -1,5 +1,5 @@
 {
-  "lastCheckedAt": "2026-02-17T21:30:00Z",
+  "lastCheckedAt": "2026-02-18T15:30:00Z",
   "actionedTrades": [
     {
       "ticker": "CLBT",
@@ -29,6 +29,30 @@
       "entryDate": "2026-02-13",
       "tweetId": "2022317801600602490",
       "thesis": "Recent institutional involvement (30% ownership), significant margin of safety ($25/share cash vs $21 trade price), no debt, best-in-class fleet, shareholders in control, multiple buyers, potential dual listing on Tel Aviv Stock Exchange. Structural shift in ownership."
+    },
+    {
+      "ticker": "UBER",
+      "direction": "LONG",
+      "entryPrice": "~$70",
+      "entryDate": "2026-02-18",
+      "tweetId": "2023978408183779724",
+      "thesis": "Uber Technologies is down roughly 40% from around $100 to $70. Likes Bill Ackman’s thesis here. Comfortable allocating 5% of portfolio at $70."
+    },
+    {
+      "ticker": "AMZN",
+      "direction": "LONG",
+      "entryPrice": "After ~20% pullback",
+      "entryDate": "2026-02-18",
+      "tweetId": "2023954999391514793",
+      "thesis": "Many investors loading up on AMZN in latest 13F filings. After significant drawdown, attractive entry point. Largest companies tend to keep dominating, acquire competitors, extend moat, compound. Amazon spending on AI, which pressures margins today but builds foundation for future dominance. After ~20% pullback, Amazon looks compelling."
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "Ratio Spreads",
+      "entry": "Sell expensive out of the money options to sponsor at the money options",
+      "entryDate": "2026-02-18",
+      "tweetId": "2023950849152843898",
+      "thesis": "$VXN has been hovering around its highest level in two years for the past three weeks. The reason is clear - the AI “killer” narrative and aggressive AI spending by $AMZN, $META, and $GOOG, while profits remain far away. This isn’t a black swan. It’s a repricing of known conditions. When volatility expands for identifiable reasons - not unknown shocks, I’m very comfortable owning the risk."
     }
   ],
   "alertedTweets": [
@@ -52,6 +76,9 @@
     "2023638664207896773",
     "2023646947211702620",
     "2023624404576411797",
-    "2023797318273954236"
+    "2023797318273954236",
+    "2023978408183779724",
+    "2023954999391514793",
+    "2023950849152843898"
   ]
 }
