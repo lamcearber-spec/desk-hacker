@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "prompt-guard": {
+      "version": "2.5.1",
+      "installedAt": 1769860167026
+    },
+    "ibkr-trader": {
+      "version": "1.0.0",
+      "installedAt": 1769890839840
+    },
+    "model-usage": {
+      "version": "1.0.0",
+      "installedAt": 1771529643307
+    },
+    "aisa-twitter-api": {
+      "version": "1.0.0",
+      "installedAt": 1771529662173
+    },
+    "computer-use": {
+      "version": "1.2.1",
+      "installedAt": 1771529665616
+    }
+  }
+}

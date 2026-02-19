@@ -1,49 +1,93 @@
-{\n  \"lastCheckedAt\": \"2026-02-19T17:30:00Z\",\n  \"actionedTrades\": [\n    {\n      \"ticker\": \"CLBT\",\n      \"direction\": \"LONG\",\n      \"entryDate\": \"2026-02-11\",\n      \"tweetId\": \"2021558384689086562\",\n      \"thesis\": \"Israeli digital forensics, drone acquisition, defense/federal tailwinds, AI integration\"\n    },\n    {\n      \"ticker\": \"PLX\",\n      \"position\": \"$5 Call Mar 20\",\n      \"entryDate\": \"2026-02-04\",\n      \"tweetId\": \"2019422231735173326\"\n    },\n    {\n      \"ticker\": \"USO\",\n      \"position\": \"$76 Put Feb 11\",\n      \"entryDate\": \"2026-02-06\",\n      \"entry\": \"$0.99\",\n      \"thesis\": \"Mirroring Zee crude oil bearish into weekend\",\n      \"originalTweet\": \"https://x.com/ZeeContrarian1/status/2019595026741993326\"\n    },\n    {\n      \"ticker\": \"ZIM\",\n      \"direction\": \"LONG\",\n      \"entryPrice\": \"~$21\",\n      \"entryDate\": \"2026-02-13\",\n      \"tweetId\": \"2022317801600602490\",\n      \"thesis\": \"Recent institutional involvement (30% ownership), significant margin of safety ($25/share cash vs $21 trade price), no debt, best-in-class fleet, shareholders in control, multiple buyers, potential dual listing on Tel Aviv Stock Exchange. Structural shift in ownership.\"\n    },\n    {\n      \"ticker\": \"UBER\",\n      \"direction\": \"LONG\",\n      \"entryPrice\": \"~$70\",\n      \"entryDate\": \"2026-02-18\",\n      \"tweetId\": \"2023978408183779724\",\n      \"thesis\": \"Uber Technologies is down roughly 40% from around $100 to $70. Likes Bill Ackman’s thesis here. Comfortable allocating 5% of portfolio at $70.\"\n    },\n    {\n      \"ticker\": \"AMZN\",\      \"direction\": \"LONG\",\
-      \"entryPrice\": \"After ~20% pullback\",\
-      \"entryDate\": \"2026-02-18\",\
-      \"tweetId\": \"2023954999391514793\",\
-      \"thesis\": \"Many investors loading up on AMZN in latest 13F filings. After significant drawdown, attractive entry point. Largest companies tend to keep dominating, acquire competitors, extend moat, compound. Amazon spending on AI, which pressures margins today but builds foundation for future dominance. After ~20% pullback, Amazon looks compelling.\"\
-    },\
-    {\
-      \"ticker\": \"QQQ\",\
-      \"direction\": \"Ratio Spreads\",\
-      \"entry\": \"Sell expensive out of the money options to sponsor at the money options\",\
-      \"entryDate\": \"2026-02-18\",\
-      \"tweetId\": \"2023950849152843898\",\
-      \"thesis\": \"VXN has been hovering around its highest level in two years for the past three weeks. The reason is clear - the AI “killer” narrative and aggressive AI spending by AMZN, META, and GOOG, while profits remain far away. This isn’t a black swan. It’s a repricing of known conditions. When volatility expands for identifiable reasons - not unknown shocks, I’m very comfortable owning the risk.\"\
-    }\n  ],\
-  \"alertedTweets\": [\
-    \"2019595026741993326\",\
-    \"2019422231735173326\",\
-    \"2021558384689086562\",\
-    \"2022304432332148916\",\
-    \"2022166920951476458\",\
-    \"2022119046247018998\",\
-    \"2022028528704008668\",\
-    \"2022026584514011425\",\
-    \"2022382829599101387\",\
-    \"2022355603906322865\",\
-    \"2022317801600602490\",\
-    \"2023243977034715485\",\
-    \"2023212975847575943\",\
-    \"2023009211899355221\",\
-    \"2022945759977423009\",\
-    \"2022893996956430453\",\
-    \"2023436941908393994\",\
-    \"2023638664207896773\",\
-    \"2023646947211702620\",\
-    \"2023624404576411797\",\
-    \"2023797318273954236\",\
-    \"2023978408183779724\",\
-    \"2023954999391514793\",\
-    \"2023950849152843898\",\
-    \"2024146117466722799\",\
-    \"2023960914970767438\",\
-    \"2024425964185563225\",\
-    \"2024298698554167400\",\
-    \"2024295512602792421\",\
-    \"2024250269505397040\",\
-    \"2024505670486392930\",\
-    \"2024245375763435948\",\
-    \"2024519648331641085\"\
-  ]\n}
+{
+  "lastCheckedAt": "2026-02-19T19:30:00Z",
+  "actionedTrades": [
+    {
+      "ticker": "CLBT",
+      "direction": "LONG",
+      "entryDate": "2026-02-11",
+      "tweetId": "2021558384689086562",
+      "thesis": "Israeli digital forensics, drone acquisition, defense/federal tailwinds, AI integration"
+    },
+    {
+      "ticker": "PLX",
+      "position": "$5 Call Mar 20",
+      "entryDate": "2026-02-04",
+      "tweetId": "2019422231735173326"
+    },
+    {
+      "ticker": "USO",
+      "position": "$76 Put Feb 11",
+      "entryDate": "2026-02-06",
+      "entry": "$0.99",
+      "thesis": "Mirroring Zee crude oil bearish into weekend",
+      "originalTweet": "https://x.com/ZeeContrarian1/status/2019595026741993326"
+    },
+    {
+      "ticker": "ZIM",
+      "direction": "LONG",
+      "entryPrice": "~$21",
+      "entryDate": "2026-02-13",
+      "tweetId": "2022317801600602490",
+      "thesis": "Recent institutional involvement (30% ownership), significant margin of safety ($25/share cash vs $21 trade price), no debt, best-in-class fleet, shareholders in control, multiple buyers, potential dual listing on Tel Aviv Stock Exchange. Structural shift in ownership."
+    },
+    {
+      "ticker": "UBER",
+      "direction": "LONG",
+      "entryPrice": "~$70",
+      "entryDate": "2026-02-18",
+      "tweetId": "2023978408183779724",
+      "thesis": "Uber Technologies is down roughly 40% from around $100 to $70. Likes Bill Ackman’s thesis here. Comfortable allocating 5% of portfolio at $70."
+    },
+    {
+      "ticker": "AMZN",
+      "direction": "LONG",
+      "entryPrice": "After ~20% pullback",
+      "entryDate": "2026-02-18",
+      "tweetId": "2023954999391514793",
+      "thesis": "Many investors loading up on AMZN in latest 13F filings. After significant drawdown, attractive entry point. Largest companies tend to keep dominating, acquire competitors, extend moat, compound. Amazon spending on AI, which pressures margins today but builds foundation for future dominance. After ~20% pullback, Amazon looks compelling."
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "Ratio Spreads",
+      "entry": "Sell expensive out of the money options to sponsor at the money options",
+      "entryDate": "2026-02-18",
+      "tweetId": "2023950849152843898",
+      "thesis": "VXN has been hovering around its highest level in two years for the past three weeks. The reason is clear - the AI “killer” narrative and aggressive AI spending by AMZN, META, and GOOG, while profits remain far away. This isn’t a black swan. It’s a repricing of known conditions. When volatility expands for identifiable reasons - not unknown shocks, I’m very comfortable owning the risk."
+    }
+  ],
+  "alertedTweets": [
+    "2019595026741993326",
+    "2019422231735173326",
+    "2021558384689086562",
+    "2022304432332148916",
+    "2022166920951476458",
+    "2022119046247018998",
+    "2022028528704008668",
+    "2022026584514011425",
+    "2022382829599101387",
+    "2022355603906322865",
+    "2022317801600602490",
+    "2023243977034715485",
+    "2023212975847575943",
+    "2023009211899355221",
+    "2022945759977423009",
+    "2022893996956430453",
+    "2023436941908393994",
+    "2023638664207896773",
+    "2023646947211702620",
+    "2023624404576411797",
+    "2023797318273954236",
+    "2023978408183779724",
+    "2023954999391514793",
+    "2023950849152843898",
+    "2024146117466722799",
+    "2023960914970767438",
+    "2024425964185563225",
+    "2024298698554167400",
+    "2024295512602792421",
+    "2024250269505397040",
+    "2024505670486392930",
+    "2024245375763435948",
+    "2024519648331641085"
+  ]
+}
