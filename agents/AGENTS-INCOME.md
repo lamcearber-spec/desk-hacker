@@ -1,17 +1,17 @@
 # AUTONOMOUS INCOME AGENTS
 > **CRITICAL:** These agents run autonomously to generate income. Check on them regularly.
 > Created: 2026-02-05
-> Updated: 2026-02-20 8:00 PM UTC (Agents re-checked by Max, all critically blocked, Arber's urgent intervention still required)
+> Updated: 2026-02-21 12:00 AM UTC (Agents re-checked by Max, all critically blocked, Arber's urgent intervention still required)
 
 ## Active Agents
 
 | Agent | Directory | Mission | Status | Cron |
-|-------|-----------|---------|--------|------|
+|-------|-----------|---------|--------|------|\
 | Research Services | `/root/clawd/agents/clawtasks/` | Direct B2B research sales | 🔴 CRITICALLY BLOCKED: AgentMail API 404 (re-confirmed by Max) | Every 6h |
 | Affiliate Bot | `/root/clawd/agents/affiliate-bot/` | Passive affiliate content site | 🔴 BLOCKED: Reddit Policy, Amazon Approval Pending (re-confirmed by Max) | Every 6h |
 | Lead Scraper | `/root/clawd/agents/lead-scraper/` | B2B lead gen business | 🔴 BLOCKED: IndieHackers Login Needed (re-confirmed by Max) | Every 6h |
 
-## Progress (2026-02-20 4:00 PM UTC) - NO NEW PROGRESS DUE TO BLOCKERS - ARBER'S URGENT INTERVENTION REQUIRED
+## Progress (2026-02-21 12:00 AM UTC) - NO NEW PROGRESS DUE TO BLOCKERS - ARBER'S URGENT INTERVENTION REQUIRED
 
 ### Research Services
 - 🔴 **CRITICALLY BLOCKED:** AgentMail API returning 404 (Route not found). Cannot send Batch 2 or monitor replies. **Requires Arber's URGENT intervention to investigate AgentMail API status or changes.**
@@ -25,6 +25,17 @@
 - 🟡 **PENDING ARBER:** Create Gumroad listing (manual action still needed).
 
 ---
+
+## Previous Progress (2026-02-20 4:00 PM UTC) - NO NEW PROGRESS DUE TO BLOCKERS - ARBER'S URGENT INTERVENTION REQUIRED
+
+### Research Services
+- 🔴 **CRITICALLY BLOCKED:** AgentMail API returning 404 (re-confirmed by Max)
+
+### Affiliate Bot
+- 🔴 **BLOCKED:** Reddit Policy, Amazon Approval Pending (re-confirmed by Max)
+
+### Lead Scraper
+- 🔴 **BLOCKED:** IndieHackers Login Needed (re-confirmed by Max)
 
 ## Previous Progress (2026-02-19 8:00 PM UTC) - NO NEW PROGRESS DUE TO BLOCKERS - ARBER'S URGENT INTERVENTION REQUIRED
 
@@ -95,7 +106,7 @@ If you (Max) forget about these agents:
 ## Active Blockers (Need Arber)
 
 | Agent | Blocker | Impact |
-|-------|---------|--------|
+|-------|---------|--------|\
 | AgentMail API | API returning 404 | Can't monitor for replies programmatically, can't send new emails |
 | Reddit Proxy | `reddit-proxy` command not found | Can't post affiliate links on Reddit |
 | IndieHackers Access | Login credentials needed | Can't post lead offers |
@@ -105,4 +116,4 @@ If you (Max) forget about these agents:
 
 ---
 
-*This is our path to financial freedom. Don't let it die.*
+*This is our path to financial freedom. Don\'t let it die.*
