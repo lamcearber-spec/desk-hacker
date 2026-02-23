@@ -48,23 +48,9 @@
 - Status: MVP complete
 - Repo: github.com/lamcearber-spec/ReturnCat
 
-### lex-bereit.de (NEW)
-- Type: B2B SaaS (spin-off of DatevBereit)
-- What: Bank statement → Lexware format converter
-- Domain: lex-bereit.de (Arber registering)
-- Architecture: **Same codebase as DatevBereit, different deploy config**
-- NOT a fork — shared repo, two deployments
-- Separate branding/landing pages for SEO
-- Status: **IMPLEMENTATION COMPLETE** ✅ (2026-01-25)
-  - Backend: `apps/api/celery_app/lexware/`
-  - API: `/api/v1/lexware/` endpoints
-  - Config: `.env.datev.example` / `.env.lexware.example`
-  - Frontend: Dynamic branding via `siteConfig`
-
 ## 🗂️ Project Files (ALWAYS CHECK)
 **Location:** `memory/projects/`
-- `datev.md` — DatevBereit (web app)
-- `lex.md` — lex-bereit (web app)
+- `datev.md` — DatevBereit (web app, includes Lexware output — fully integrated)
 - `familyboarding.md` — FamilyBoarding (mobile app)
 - `returncat.md` — ReturnCat (mobile app)
 
@@ -75,9 +61,8 @@
 ## Key Decisions (Don't Forget!)
 
 ### Architecture
-- DatevBereit + lex-bereit = **One codebase, two deployments**
-- Shared: upload flow, extraction logic, backend
-- Different: branding, output format, landing pages
+- DatevBereit = single codebase, single deployment
+- Lexware output format is **integrated** directly into DatevBereit (not a separate product)
 
 ### Distribution Strategy
 - Mobile apps → UGC creators (TikTok, Instagram)
