@@ -87,10 +87,19 @@
 6. **Weakness exploitation** — Cover what competitors miss → win #1
 
 ### Workflow (Modus Operandi)
-- New features: Max breaks down → spawn sub-agents → report
-- Bug fixes: Ralph (scoped, budgeted)
-- Architecture: Arber decides, Max implements
+- New features: Max plans/scopes → CC writes code → Max reports
+- Bug fixes: CC (scoped, budgeted)
+- Architecture: Arber decides, CC implements
 - Deploy: Arber approves, Max executes
+
+### 🔴 THE WORKFLOW — PERMANENT (Arber has said this MANY TIMES)
+1. Max → writes CC brief → sends to Arber
+2. Arber → runs CC on his DESKTOP with the brief
+3. CC (desktop) → writes all code, commits to repo
+4. Max → pulls repo + deploys on server
+
+Max does NOT write code. Max does NOT spawn CC autonomously.
+Max writes briefs. Arber runs CC. Max deploys.
 
 ### Arber's Working Style
 - Tends to procrastinate — needs daily accountability
