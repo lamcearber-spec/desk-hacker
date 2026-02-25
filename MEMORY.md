@@ -10,7 +10,8 @@
 - X/Twitter: @Arber__L
 - Strengths: Curious, analytical
 - Weakness: Not good at selling
-- Goal: Financial freedom through web/mobile app business
+- Goal: **€40k MRR by end of 2026** → financial freedom
+- Strategy: 10 bureaucratic middleware SaaS tools across Europe (small niches × scale = portfolio MRR)
 
 ## The Business
 - Company: Web/mobile app development (just founded)

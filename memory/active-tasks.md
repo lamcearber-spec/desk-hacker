@@ -36,3 +36,21 @@
 - [2026-02-13] Kaostyl OpenClaw tips saved to vault
 - [2026-02-13] Instagram target list completed
 - [2026-02-13] CoCo: 1,250 leads (1,000 Steuerberater + 250 Buchhalter), 915 phones, 500 emails
+
+## Tomorrow (2026-02-26)
+- [ ] Italian project setup (research + vault + CC brief + domain)
+- [ ] Spanish project setup: parte-listo.es (buy domain, run CC Prompt 1, deploy)
+
+## Portfolio Tracker
+### Live (4)
+- datev-bereit.de
+- zugferd-bereit.de
+- facturx-pret.fr
+- edi-pret.fr
+
+### Tomorrow — Setup (2)
+- parte-listo.es (Spanish hospitality SES.Hospedajes XML)
+- listino-pronto.it (Italian ETIM BMEcat catalog XML)
+
+### Next Week — Research + Build (4 more needed)
+- TBD — target: 10 total by EOY 2026
