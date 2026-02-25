@@ -119,6 +119,16 @@ To configure:
 - **Purpose:** Engage with German accountants/bookkeepers for DatevBereit
 - **Setup date:** 2026-01-29
 
+## GitHub Token ✅ READY
+
+- **Token name:** Clawdbot-VPS (no expiration)
+- **Token:** REDACTED_GITHUB_TOKEN
+- **Account:** lamcearber-spec
+- **Stored in:** ~/.bashrc as GITHUB_TOKEN, ~/.config/gh/hosts.yml
+- **Vault repo:** https://github.com/lamcearber-spec/radom-vault (private)
+- **Vault path:** /root/clawd/vault/
+- **Auto-push:** Every 15 min via DATEV-MONITOR cron
+
 ## App Store Connect CLI (asc) 🆕 TO INSTALL
 
 - **What:** CLI for managing App Store Connect — reviews, submissions, metadata
