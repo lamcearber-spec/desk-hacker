@@ -48,9 +48,14 @@
 - facturx-pret.fr
 - edi-pret.fr
 
-### Tomorrow — Setup (2)
-- parte-listo.es (Spanish hospitality SES.Hospedajes XML)
-- listino-pronto.it (Italian ETIM BMEcat catalog XML)
+### Deployed, Domain Pending (2)
+- parte-listo.es
+- listino-pronto.it
+
+### Deployed Today (2026-02-26) — Awaiting Domains
+- parte-listo.es — ✅ deployed (web:3006, api:8006) — domain pending (.es registrar issue being resolved)
+- listino-pronto.it — ✅ deployed (web:3007, api:8007) — domain pending
+- faktura-klar.dk — ✅ deployed (web:3008) — domain pending (need to register faktura-klar.dk via Punktum dk)
 
 ### Next Week — Research + Build (4 more needed)
 - TBD — target: 10 total by EOY 2026
