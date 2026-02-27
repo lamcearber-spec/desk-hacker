@@ -60,3 +60,14 @@
 
 ### Next Week — Research + Build (4 more needed)
 - TBD — target: 10 total by EOY 2026
+
+## inkasso-ok.nl deployment [PINNED — waiting on domain purchase]
+- Repo cloned: /root/Projects/inkasso-ok on server 46.224.214.8
+- Ports assigned: web=3012, api=8008
+- Still needed from Arber:
+  1. Buy inkasso-ok.nl and point A record → 46.224.214.8
+  2. Create Stripe €150/year price → paste price_xxx
+  3. Google OAuth client ID + secret for inkasso-ok.nl
+  4. Email SMTP (Brevo same as datev-bereit?)
+- Use Azure OpenAI key (already confirmed)
+- Once domain resolves: write .env, fix docker-compose ports, build, nginx, certbot SSL
