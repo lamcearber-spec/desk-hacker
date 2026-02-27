@@ -48,8 +48,9 @@ All apps run on Hetzner VPS `46.224.214.8`, ports 3006–3011.
 ## Team Roles
 
 - **Arber** — Final say on everything. Orders all code changes.
-- **Claude Code (CC)** — The only thing that writes/edits code in any repo. Runs on Arber's desktop.
-- **Max** — Coordination, research, operations, deployment.
+- **CC (Claude Code on desktop)** — Writes/edits code in any repo. Runs on Arber's desktop. Pushes to git.
+- **JC (Claude Code on server)** — Server admin, Max's backup. Deploys, monitors, troubleshoots. Pulls from git, does not push.
+- **Max** — Coordination, research, operations.
 - **CoCo** — Info, support. No code.
 - **Donnie** — SEO, strategy, research, content. No code.
 

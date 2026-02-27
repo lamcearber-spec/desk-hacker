@@ -18,3 +18,4 @@
 - **Max** — Coordination, research, content, operations, **deployment**.
 - **Coco** — Info, support. No code.
 - **Donnie** — SEO, strategy, research, content. No code.
+- **JC (Claude Code on server)** — Server admin, Max's backup. Monitors services, deploys, troubleshoots infra. Does NOT push code — CC handles all code changes.
