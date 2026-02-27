@@ -52,10 +52,11 @@
 - parte-listo.es
 - listino-pronto.it
 
-### Deployed Today (2026-02-26) — Awaiting Domains
-- parte-listo.es — ✅ deployed (web:3006, api:8006) — domain pending (.es registrar issue being resolved)
-- listino-pronto.it — ✅ deployed (web:3007, api:8007) — domain pending
-- faktura-klar.dk — ✅ deployed (web:3008) — domain pending (need to register faktura-klar.dk via Punktum dk)
+### Domain Status (2026-02-27)
+- parte-listo.es — ✅ deployed — domain not resolving (Red.es VAT verification pending)
+- listino-pronto.it — ✅ LIVE + SSL (certified 2026-02-27)
+- faktura-klar.dk — ✅ LIVE + SSL (certified 2026-02-27)
+- peppol-ok.be / coda-ok.be / checkin-ok.be — awaiting Belgian registry approval
 
 ### Next Week — Research + Build (4 more needed)
 - TBD — target: 10 total by EOY 2026
