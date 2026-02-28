@@ -61,13 +61,15 @@
 ### Next Week — Research + Build (4 more needed)
 - TBD — target: 10 total by EOY 2026
 
-## inkasso-ok.nl deployment [PINNED — waiting on domain purchase]
-- Repo cloned: /root/Projects/inkasso-ok on server 46.224.214.8
-- Ports assigned: web=3012, api=8008
-- Still needed from Arber:
-  1. Buy inkasso-ok.nl and point A record → 46.224.214.8
-  2. Create Stripe €150/year price → paste price_xxx
-  3. Google OAuth client ID + secret for inkasso-ok.nl
-  4. Email SMTP (Brevo same as datev-bereit?)
-- Use Azure OpenAI key (already confirmed)
-- Once domain resolves: write .env, fix docker-compose ports, build, nginx, certbot SSL
+## NL Sites — SSL Certs Pending [PINNED — 2026-02-28]
+All 3 deployed and Nginx configured. Waiting on DNS propagation.
+Once `dig inkasso-ok.nl` returns 46.224.214.8, run:
+```
+certbot --nginx -d inkasso-ok.nl -d www.inkasso-ok.nl
+certbot --nginx -d xaf-ok.nl -d www.xaf-ok.nl
+certbot --nginx -d loonjournaal-ok.nl -d www.loonjournaal-ok.nl
+```
+Still needed from Arber (after SSL):
+- Stripe price IDs for each site
+- Google OAuth clients for each site
+- OpenAI/Azure API keys per site
