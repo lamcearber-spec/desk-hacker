@@ -61,15 +61,12 @@
 ### Next Week — Research + Build (4 more needed)
 - TBD — target: 10 total by EOY 2026
 
-## NL Sites — SSL Certs Pending [PINNED — 2026-02-28]
-All 3 deployed and Nginx configured. Waiting on DNS propagation.
-Once `dig inkasso-ok.nl` returns 46.224.214.8, run:
-```
-certbot --nginx -d inkasso-ok.nl -d www.inkasso-ok.nl
-certbot --nginx -d xaf-ok.nl -d www.xaf-ok.nl
-certbot --nginx -d loonjournaal-ok.nl -d www.loonjournaal-ok.nl
-```
-Still needed from Arber (after SSL):
+## NL Sites — ✅ LIVE [2026-02-28]
+- https://inkasso-ok.nl ✅
+- https://xaf-ok.nl ✅
+- https://loonjournaal-ok.nl ✅
+
+Still needed from Arber:
 - Stripe price IDs for each site
 - Google OAuth clients for each site
 - OpenAI/Azure API keys per site
