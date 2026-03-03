@@ -4,30 +4,19 @@
 
 ## Current Tasks
 
+### ✅ Domain Migration (COMPLETE - March 3)
+**datev-bereit.de → konverter-pro.de**
+See: `vault/projects/datev-bereit/migration-konverter-pro.md`
+
 ### ✅ Stripe Connect Integration (COMPLETE - Feb 21)
-**Status:** Deployed, Arber testing
-
-**Commits:**
-- 3202b4b: Full implementation (backend + frontend)
-- 7594841: Fixed STRIPE_CLIENT_ID env var
-- 2236d10: Changed scope read_only → read_write
-
-**What's live:**
-- OAuth flow: /api/v1/stripe/connect/authorize → callback → tokens stored
-- Frontend: API Integrations page with Connect button
-- Transaction import + DATEV export ready
-
-**Stripe credentials:**
-- client_id: `ca_U1H5nPYTZ9fXeZ7BXcB81siKdQ0pp5Ub`
-- redirect: `https://datev-bereit.de/api/v1/stripe/connect/callback`
-- **CoCo: Email enrichment** — 500/1000 emails, still scraping. Goal: maximize before launch.
-- **Donnie: Cold email templates** — ✅ Done at `vault/projects/datev-bereit/marketing/outreach/cold-email-templates.md`
-- **Launch postponed to next week** — use extra time for enrichment + content
+**Status:** Deployed, live on konverter-pro.de
 
 ## Pending (Arber action needed)
-- [ ] Create DatevBereit Instagram account
-- [ ] Set up Google Ads account
-- [ ] Confirm site deployment
+- [ ] Send DATEV reply email (deadline: March 14) — draft ready
+- [ ] Send auth-code for datev-bereit.de (deadline: March 16) — get from joker.com
+- [ ] Stripe Dashboard: update support email + Connect redirect URI to konverter-pro.de
+- [ ] Stripe Account C: finish setup for marketplace app publishing
+- [ ] Google Ads: fix conversion tracking, set up Search campaign
 
 ## Recently Completed
 - [2026-02-13] OpenClaw updated 2026.2.9 → 2026.2.12
