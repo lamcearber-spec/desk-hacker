@@ -20,21 +20,22 @@
 
 ## Active Projects
 
-### DatevBereit (Priority) ⭐
+### Konverter Pro / DatevBereit (Priority) ⭐
+- **REBRANDED:** datev-bereit.de → konverter-pro.de (DATEV C&D, March 2026)
 - Type: B2B SaaS
 - What: Bank statements, Stripe & Shopify payouts → DATEV format converter
 - Target: German freelancers, Steuerberater, e-commerce sellers
 - Stack: Next.js + FastAPI + PostgreSQL + Celery + Docker
-- **Pricing (updated 2026-02-18):**
-  - Anonymous: Free (1 page/24h)
-  - Registered: Free (5 pages/24h)
-  - Starter: €20/mo (400 pages)
-  - Professional: €50/mo (1,000 pages)
-  - Business: €99/mo
-  - Enterprise: Contact
+- **Live URL:** https://konverter-pro.de (datev-bereit.de 301 redirects → expires March 16)
+- **Docker:** project `konverter-pro`, web container `konverter-pro-web-1`
+- **Repo path:** /home/muja/DatevBereit-Claude, branch: feature/shopify-connect
+- **Pricing:** Starter €20/mo, Professional €50/mo, Business €99/mo, Enterprise contact
 - **First revenue:** €20 from tester (2026-02-17)
-- **AI:** Moving from Mistral → GPT-4o mini (cheaper + more accurate)
-- Status: Testing phase, needs API fixes then deploy
+- **Auth-code deadline:** March 16, 2026 — send to DATEV, reply email by March 14
+- **Google Workspace:** konverter-pro.de domain added, support@/info@/arberlamce@ aliases live
+- **Stripe webhook:** updated to api.konverter-pro.de; manual: update support email + OAuth redirect in dashboard
+- **API tokens:** Search Console + Workspace Admin saved at /root/clawd/tools/google-ads/
+- Status: Live, feature/shopify-connect deployed
 - Repo: github.com/lamcearber-spec/DatevBereit-Claude
 
 ### FamilienBoarding
