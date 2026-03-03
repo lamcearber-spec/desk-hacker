@@ -12,10 +12,10 @@ See: `vault/projects/datev-bereit/migration-konverter-pro.md`
 **Status:** Deployed, live on konverter-pro.de
 
 ## Pending (Arber action needed)
-- [ ] Send DATEV reply email (deadline: March 14) — draft ready
-- [ ] Send auth-code for datev-bereit.de (deadline: March 16) — get from joker.com
+- [x] Send DATEV reply email — DONE March 3
+- [x] Send auth-codes (datev-bereit.de + datevbereit.de) — DONE March 3
 - [ ] Stripe Dashboard: update support email + Connect redirect URI to konverter-pro.de
-- [ ] Stripe Account C: finish setup for marketplace app publishing
+- [ ] Stripe Account C: submit app v1.0.8 for marketplace review (tomorrow March 4)
 - [ ] Google Ads: fix conversion tracking, set up Search campaign
 
 ## Recently Completed
