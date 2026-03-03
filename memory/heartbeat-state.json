@@ -1,12 +1,10 @@
 {
   "lastChecks": {
-    "dailyShip": "2026-02-28T10:00:00Z",
-    "statusReport": "2026-03-03T07:39:00Z",
-    "email": null,
-    "calendar": null,
-    "weather": null,
-    "lastFactExtraction": "2026-03-03T07:39:00Z"
+    "logs": 1741012740,
+    "health": 1741012740,
+    "activeTasks": 1741012740,
+    "factExtraction": 1741012740
   },
-  "notes": "OpenClaw updated to v2026.3.2. Disk at 60% (improved from 73%). All services green. Daily file created for 2026-03-03.",
-  "lastOpenItemCheck": "2026-03-03T07:39:00Z"
+  "lastHeartbeat": "2026-03-03T15:39:00Z",
+  "notes": "Migration complete. Health check script fixed and running clean. Active-tasks.md needs update."
 }
