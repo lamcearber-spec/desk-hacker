@@ -15,8 +15,20 @@ See: `vault/projects/datev-bereit/migration-konverter-pro.md`
 - [x] Send DATEV reply email — DONE March 3
 - [x] Send auth-codes (datev-bereit.de + datevbereit.de) — DONE March 3
 - [ ] Stripe Dashboard: update support email + Connect redirect URI to konverter-pro.de
-- [ ] Stripe Account C: submit app v1.0.8 for marketplace review (tomorrow March 4)
+- [ ] Stripe Account C: complete listing (subtitle/about/features done 2026-03-04) → submit for review
 - [ ] Google Ads: fix conversion tracking, set up Search campaign
+
+## Pending (CC needed)
+- [ ] Fix email verification tokens: Redis → PostgreSQL
+  - Brief: vault/projects/datev-bereit/briefs/fix-verification-token-db.md
+  - After CC commits → Max pulls + deploys API + runs migration
+
+## Done Today (2026-03-04)
+- ✅ 3 new blog articles (XLSX, CSV, sevDesk) — deployed
+- ✅ Sitemap fixed (9 live articles, dead slugs removed)
+- ✅ Google Indexing API set up, all 11 URLs submitted
+- ✅ 6 users manually verified (email_verified bug)
+- ✅ Stripe App listing copy written (subtitle, about, feature 1)
 
 ## Recently Completed
 - [2026-02-13] OpenClaw updated 2026.2.9 → 2026.2.12
