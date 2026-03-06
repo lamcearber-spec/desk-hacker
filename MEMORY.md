@@ -155,3 +155,11 @@ Max writes briefs. Arber runs CC. Max deploys.
 
 ---
 *Last updated: 2026-03-06 (by JC — nightly review)*
+
+## watch-video Pipeline ✅ (2026-03-06)
+- Script: `/root/clawd/scripts/watch-video.sh <youtube-url>`
+- Stack: yt-dlp + deno → ffmpeg split → Azure Whisper → Claude Haiku summary
+- YouTube cookies: `/root/.config/youtube_cookies.txt` (Arber's, valid ~2027)
+- Rate limit: 30s between Whisper chunks, ~4 min for 1hr video
+- Setup docs for JC: `/root/clawd/env/WATCH-VIDEO-SETUP.md`
+- Triggered from WhatsApp via: send YouTube URL → I run it and summarize
