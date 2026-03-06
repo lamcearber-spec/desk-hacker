@@ -305,6 +305,17 @@ When conversation history gets truncated/compacted:
 
 **The rule:** Uncertain + compacted context = ASK. Don't be a hero.
 
+## 🔄 Session End Protocol — Don't Leave Loose Ends
+
+Before ending any session, scan for unresolved items:
+- "Waiting for results" → log to WORKING.md with follow-up flag
+- "Cron set for [time]" → log to WORKING.md, confirm at next heartbeat
+- "Research pending" → note the research question + expected output location
+
+Format: `- [ ] PENDING: [what's pending] — confirm at next heartbeat`
+
+Never exit with pending items not recorded in WORKING.md.
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.

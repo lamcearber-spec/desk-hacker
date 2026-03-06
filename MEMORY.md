@@ -38,6 +38,39 @@
 - Status: Live, feature/shopify-connect deployed
 - Repo: github.com/lamcearber-spec/DatevBereit-Claude
 
+### Full Portfolio (13 apps, 12 live as of 2026-02-28)
+- **konverter-pro.de** (🇩🇪) — Live + SSL, PRIMARY FOCUS
+- **zugferd-bereit.de** (🇩🇪) — Live + SSL
+- **facturx-pret.fr** (🇫🇷) — Live + SSL
+- **edi-pret.fr** (🇫🇷) — Live + SSL
+- **listino-pronto.it** (🇮🇹) — Live + SSL
+- **faktura-klar.dk** (🇩🇰) — Live + SSL
+- **xaf-ok.nl** (🇳🇱) — Live + SSL, needs Stripe config
+- **loonjournaal-ok.nl** (🇳🇱) — Live + SSL, needs Stripe config
+- **inkasso-ok.nl** (🇳🇱) — Live + SSL, needs Stripe config
+- **peppol-ok.be** (🇧🇪) — Live + SSL, needs Stripe config
+- **coda-ok.be** (🇧🇪) — Live + SSL, needs Stripe config
+- **checkin-ok.be** (🇧🇪) — Live + SSL, needs NSSO Chaman OAuth2
+- **parte-listo.es** (🇪🇸) — Pending Spanish VAT number
+- All on Hetzner VPS `46.224.214.8`, ports 3006–3015
+
+### Polymarket
+- Tor running on server (SOCKS5 127.0.0.1:9050)
+- Wallet: 0x5910B772559959D039D31e86E9847b827B7C8C9E
+- ~$10.50 USDC remaining
+- Active bets: SpaceX 9 launches + Fidesz/Orbán
+- Pending: Arsenal YES token research (28.5¢)
+
+### Notte API
+- Account: madmax@agentmail.to
+- API key saved to ~/.bashrc as NOTTE_API_KEY
+- Daily DATEV monitor cron at 09:00 CET
+
+### Sellerforum.de
+- Account: MadMaxInDaHaus
+- Used for datev-bereit/konverter-pro community outreach
+- Threads 64219 and 61102 in progress
+
 ### FamilienBoarding
 - Type: Mobile app (React Native/Expo)
 - What: Boarding pass scanner for families
@@ -121,4 +154,4 @@ Max writes briefs. Arber runs CC. Max deploys.
 - We're partners, not just assistant/user
 
 ---
-*Last updated: 2026-01-25*
+*Last updated: 2026-03-06 (by JC — nightly review)*
