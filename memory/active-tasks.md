@@ -71,3 +71,22 @@ Still needed from Arber:
 - Stripe price IDs for each site
 - Google OAuth clients for each site
 - OpenAI/Azure API keys per site
+
+## Pending: YouTube + AgentMail fixes
+### YouTube watch-video pipeline
+- Cookies approach abandoned (YouTube rotates too fast)
+- Need: Supadata API key for cookie-free transcription
+- Signup: supadata.ai with madmax@agentmail.to
+- But AgentMail key is dead → can't receive confirmation email
+
+### AgentMail key dead
+- Current key `am_f4ad8c8d...` returns 401 Unauthorized
+- Fix: Arber logs into agentmail.to → Settings → API Keys → regenerate
+- Once new key is in → update ~/.bashrc + /root/clawd/env/secrets.env
+- Then sign up for Supadata, get API key, wire up watch-video.sh
+
+### watch-video.sh current state
+- Script at /root/clawd/scripts/watch-video.sh
+- Works BUT needs valid YouTube cookies OR Supadata key
+- Azure Whisper transcription works fine (just the download step fails)
+- Once Supadata is set up: download step bypassed entirely, just use transcript API
