@@ -29,11 +29,14 @@
 - **Live URL:** https://konverter-pro.de (datev-bereit.de 301 redirects → expires March 16)
 - **Docker:** project `konverter-pro`, web container `konverter-pro-web-1`
 - **Repo path:** /home/muja/DatevBereit-Claude, branch: feature/shopify-connect
-- **Pricing:** Starter €20/mo, Professional €50/mo, Business €99/mo, Enterprise contact
+- **Pricing:** Free €0 (1 conversion/mo), Starter €5/mo (20/mo), Pro €15/mo (100/mo), Business €50/mo (500/mo)
 - **First revenue:** €20 from tester (2026-02-17)
 - **Auth-code deadline:** March 16, 2026 — send to DATEV, reply email by March 14
 - **Google Workspace:** konverter-pro.de domain added, support@/info@/arberlamce@ aliases live
 - **Stripe webhook:** updated to api.konverter-pro.de; manual: update support email + OAuth redirect in dashboard
+- **Stripe App:** v1.0.8 resubmitted 2026-03-06 (Account C, com.konverterpro.export) — fixed test user, connect endpoint, logo — review ~1-2wks
+- **Google Ads:** PMax 23581442765 paused (0 conversions); Search campaign 23624070852 live Mar 7–14, €20/day, 10 DATEV/Stripe/Shopify keywords, Max CPC €0.80
+- **Search Console:** gsc-reader@datevbereit.iam.gserviceaccount.com added to konverter-pro.de; 1 impression (indexed Mar 3)
 - **API tokens:** Search Console + Workspace Admin saved at /root/clawd/tools/google-ads/
 - Status: Live, feature/shopify-connect deployed
 - Repo: github.com/lamcearber-spec/DatevBereit-Claude
@@ -154,7 +157,7 @@ Max writes briefs. Arber runs CC. Max deploys.
 - We're partners, not just assistant/user
 
 ---
-*Last updated: 2026-03-06 (by JC — nightly review)*
+*Last updated: 2026-03-07 (by JC — nightly review: pricing corrected, Stripe App + Google Ads + Search Console added)*
 
 ## watch-video Pipeline ✅ (2026-03-06)
 - Script: `/root/clawd/scripts/watch-video.sh <youtube-url>`

@@ -26,3 +26,26 @@ Updated nightly by max-review cron (2:00 UTC).
 - ⚠️ Arsenal bet research result unresolved — Max must check and decide
 
 ---
+
+## 2026-03-07
+
+### Max (actions from 2026-03-06 session)
+- Paused PMax campaign 23581442765 (0 conversions on €74 spend)
+- Created Google Ads Search campaign 23624070852 (€20/day, Mar 7–14, Germany+German, 10 DATEV/Stripe/Shopify keywords, RSA → konverter-pro.de/de, Max CPC €0.80)
+- Resubmitted Stripe App v1.0.8 for marketplace review (Account C, com.konverterpro.export); fixed: test user, connect endpoint 302, logo 512x512
+- Added service account gsc-reader@datevbereit.iam.gserviceaccount.com to Search Console for konverter-pro.de
+
+### JC (2026-03-07 review)
+- Reviewed 2026-03-06 session transcript for gaps
+- Found 6 issues: WORKING.md task stale (Google Ads done, not removed; Stripe wording outdated), datev-bereit/summary.md Stripe App status stale + Google Ads not marked done + Search Console missing, roadmap.md still references datev-bereit.de (not konverter-pro.de), MEMORY.md pricing wrong (€20/€50/€99 → €5/€15/€50 per current summary), vault/CLAUDE.md portfolio list outdated (9 apps, stale statuses)
+- Fixed WORKING.md: removed completed Google Ads task, updated Stripe item to reflect 2026-03-06 resubmission, added Google Ads campaign + Search Console monitoring items
+- Fixed datev-bereit/summary.md: Stripe App status updated to 2026-03-06 resubmission, Google Ads marked done with campaign details, Search Console fact added
+- Fixed roadmap.md: flagship row renamed to konverter-pro.de, action column updated with current Stripe + Ads status
+- Fixed MEMORY.md: corrected pricing tiers, added Stripe App/Google Ads/Search Console status
+- Updated vault/CLAUDE.md: refreshed portfolio list to 13 apps with current statuses
+
+### Blockers
+- ⚠️ Arsenal bet (YES @ 28.5¢) — Gemini research pending, decision not made
+- ⚠️ Stripe App review: ~1-2 weeks wait from Mar 6
+
+---

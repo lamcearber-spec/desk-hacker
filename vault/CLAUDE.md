@@ -29,21 +29,25 @@ references/     — External research and reading
 
 **Goal:** 10 operating web apps by EOY 2026, €40k MRR.
 
-## Active Products (as of roadmap.md)
+## Active Products (13 apps, 12 live — as of 2026-03-07)
 
 | App | Market | Status |
 |-----|--------|--------|
-| datev-bereit.de | 🇩🇪 Germany | Live — PRIMARY FOCUS |
+| konverter-pro.de | 🇩🇪 Germany | Live — PRIMARY FOCUS (was datev-bereit.de, rebranded Mar 2026) |
 | zugferd-bereit.de | 🇩🇪 Germany | Live |
 | facturx-pret.fr | 🇫🇷 France | Live |
 | edi-pret.fr | 🇫🇷 France | Live |
-| listino-pronto.it | 🇮🇹 Italy | DNS pending |
-| faktura-klar.dk | 🇩🇰 Denmark | DNS pending |
-| peppol-ok.be | 🇧🇪 Belgium | DNS pending |
-| coda-ok.be | 🇧🇪 Belgium | DNS pending |
-| checkin-ok.be | 🇧🇪 Belgium | DNS pending |
+| listino-pronto.it | 🇮🇹 Italy | Live + SSL |
+| faktura-klar.dk | 🇩🇰 Denmark | Live + SSL |
+| xaf-ok.nl | 🇳🇱 Netherlands | Live + SSL (needs Stripe config) |
+| loonjournaal-ok.nl | 🇳🇱 Netherlands | Live + SSL (needs Stripe config) |
+| inkasso-ok.nl | 🇳🇱 Netherlands | Live + SSL (needs Stripe config) |
+| peppol-ok.be | 🇧🇪 Belgium | Live + SSL (needs Stripe config) |
+| coda-ok.be | 🇧🇪 Belgium | Live + SSL (needs Stripe config) |
+| checkin-ok.be | 🇧🇪 Belgium | Live + SSL (needs NSSO Chaman OAuth2) |
+| parte-listo.es | 🇪🇸 Spain | Pending — awaiting Spanish VAT number |
 
-All apps run on Hetzner VPS `46.224.214.8`, ports 3006–3011.
+All apps run on Hetzner VPS `46.224.214.8`, ports 3006–3015.
 
 ## Team Roles
 
