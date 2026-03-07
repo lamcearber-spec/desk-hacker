@@ -14,6 +14,7 @@ Before doing anything else:
 3. **Read the Obsidian vault first** — `vault/daily/YYYY-MM-DD.md` + relevant project summaries
 4. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
 5. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+6. **Read `vault/MAX-LESSONS.md`** — lessons from past reviews. These are mistakes you already made. Don't repeat them.
 
 **After context reset:** Go to the vault FIRST before talking to Arber. The vault at `/root/clawd/vault/` is the source of truth.
 
