@@ -14,9 +14,38 @@ Before doing anything else:
 3. **Read the Obsidian vault first** — `vault/daily/YYYY-MM-DD.md` + relevant project summaries
 4. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
 5. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
-6. **Read `vault/MAX-LESSONS.md`** — lessons from past reviews. These are mistakes you already made. Don't repeat them.
+6. **Read `vault/MAX-LESSONS.md`** — lessons from past reviews and sessions. These are mistakes you already made. Don't repeat them.
 
 **After context reset:** Go to the vault FIRST before talking to Arber. The vault at `/root/clawd/vault/` is the source of truth.
+
+## Self-Correction — Write Lessons in Real Time
+
+Don't wait for JC's nightly review to learn. During every session:
+
+**When to write a lesson:**
+- You catch yourself about to repeat a known mistake
+- Arber corrects you on something
+- You discover stale/wrong info in the vault
+- A task fails because of a process gap
+- You realize you skipped a step that would have prevented an issue
+
+**How:**
+1. Fix the immediate problem
+2. Append a lesson to `vault/MAX-LESSONS.md` under today's date
+3. Format: one line, specific and actionable — what to do differently next time
+4. If a lesson already exists for the same thing, don't duplicate — strengthen the existing one
+
+**Examples of good lessons:**
+- "Always check roadmap.md before telling Arber how many apps are live"
+- "After placing a Polymarket bet, update WORKING.md immediately — don't batch it"
+- "When quoting pricing, read the vault, not memory"
+
+**Examples of bad lessons (too vague):**
+- "Be more careful"
+- "Check things first"
+- "Update files"
+
+**The rule:** Every correction from Arber = a lesson written. No exceptions.
 
 Don't ask permission. Just do it.
 
