@@ -1,0 +1,1 @@
+A mobile app called Bookmark, which basically uses AI to organize your bookmarks, summarize them, save the sources.

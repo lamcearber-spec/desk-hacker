@@ -18,3 +18,8 @@
 ## 2026-03-06
 - Don't assume app count from memory — read roadmap.md first (portfolio grew from 9 to 13 apps)
 - After resubmitting Stripe marketplace app, log the version number and date in both WORKING.md and the project summary
+
+## 2026-03-08
+- Before running any script that touches production DB or user accounts, verify container names with `docker ps` first — never assume names match what's hardcoded in the script
+- When a fix script fails partway through, STOP and assess damage before retrying — don't patch around errors inline when a real user account is involved
+- Reviewer accounts are sacred — treat them like production data, not test fixtures

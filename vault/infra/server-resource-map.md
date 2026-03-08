@@ -91,5 +91,26 @@ Docker internal:
 - **Daily audit:** 8:00 AM CET — ports, SSH, Docker, disk, CPU, SSL, Tailscale
 - **Firewall:** iptables default DROP, all blocked scans logged as IPT-DROP
 
+## Port Allocation (All Apps)
+
+| Port | App | Type |
+|------|-----|------|
+| 3000/8000 | datev-bereit.de | Frontend/API |
+| 3002/8002 | edi-pret.fr | Frontend/API |
+| 3003/8003 | zugferd-bereit.de | Frontend/API |
+| 3004/8004 | facturx-pret.fr | Frontend/API |
+| 3008 | faktura-klar.dk | Frontend |
+| 3009 | peppol-ok.be | Frontend |
+| 3010 | coda-ok.be | Frontend |
+| 3011 | checkin-ok.be | Frontend |
+| 3013/8009 | xaf-ok.nl | Frontend/API |
+| 3014/8010 | loonjournaal-ok.nl | Frontend/API |
+| 3015/8011 | inkasso-ok.nl | Frontend/API |
+| 3016 | ixbrl-ok.co.uk | Reserved (UK Phase 3) |
+| 3017 | mtd-ok.co.uk | Reserved (UK Phase 3) |
+| 3018 | tradacoms-ok.co.uk | Reserved (UK Phase 3) |
+
+See [[domains]] for domain registry and registrar details.
+
 ---
-*Created: 2026-02-14 | Update after any infra changes*
+*Created: 2026-02-14 | Updated: 2026-03-05 | Update after any infra changes*
