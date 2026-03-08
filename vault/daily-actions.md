@@ -49,3 +49,25 @@ Updated nightly by max-review cron (2:00 UTC).
 - ⚠️ Stripe App review: ~1-2 weeks wait from Mar 6
 
 ---
+
+## 2026-03-08
+
+### Max (actions from 2026-03-07 — cron only, no main session)
+- DATEV Community Monitor cron ran at 08:00 UTC — no qualifying threads found, no replies posted
+- AgentMail inbox check FAILED (AGENTMAIL_API_KEY not in cron env; `/v1/inboxes` 404)
+- No main session with Arber on 2026-03-07
+
+### JC (2026-03-08 review)
+- Reviewed 2026-03-07 session transcript — cron only, no Arber interaction
+- Found 3 issues: (1) AgentMail cron failure unlogged — AGENTMAIL_API_KEY not in cron env + wrong API endpoint; (2) vault/strategy/mission.md stale — still references datev-bereit.de as flagship with 3-app table (last updated 2026-02-25); (3) vault/daily note gap continues — no daily notes since 2026-03-01
+- Fixed WORKING.md: added AgentMail cron failure as pending investigation item
+- Fixed MEMORY.md: added cron env failure warning under Notte API section
+- Wrote 2 lessons to MAX-LESSONS.md: cron env var inheritance, cron health verification
+- Could not fix vault/strategy/mission.md or create vault/daily/2026-03-07.md — root-owned, write denied
+
+### Blockers
+- ⚠️ Arsenal bet (YES @ 28.5¢) — Gemini research never followed up, no decision made
+- ⚠️ AgentMail cron failure — AGENTMAIL_API_KEY not in cron env; endpoint also 404
+- ⚠️ vault/strategy/mission.md — stale (root-owned; Arber or Max must update it)
+
+---

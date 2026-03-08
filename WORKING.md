@@ -12,6 +12,7 @@
 - [ ] NL sites: provide Stripe price IDs, Google OAuth, API keys
 
 ## Max to Action
+- [ ] **AgentMail cron failure** — AGENTMAIL_API_KEY not in cron environment (saved to ~/.bashrc which cron doesn't source); also `/v1/inboxes` endpoint returned 404. Fix: export var in crontab directly, OR verify correct AgentMail API endpoint. DATEV Community check itself is working.
 - [ ] Sellerforum.de Thread 64219: confirm retry cron delivered at 17:30 CET 2026-03-05
 - [ ] Sellerforum.de Thread 61102: remaining reply not yet sent
 - [ ] Arsenal / Polymarket: check Gemini research results (token 761845... YES @ 28.5¢) — decide whether to place

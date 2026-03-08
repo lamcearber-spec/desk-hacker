@@ -68,6 +68,7 @@
 - Account: madmax@agentmail.to
 - API key saved to ~/.bashrc as NOTTE_API_KEY
 - Daily DATEV monitor cron at 09:00 CET
+- ⚠️ **Cron issue (2026-03-07):** AGENTMAIL_API_KEY not available in cron env (cron doesn't source ~/.bashrc); `/v1/inboxes` endpoint also returned 404. DATEV Community check itself works. Fix needed: export vars in crontab, or check AgentMail API docs for correct endpoint.
 
 ### Sellerforum.de
 - Account: MadMaxInDaHaus

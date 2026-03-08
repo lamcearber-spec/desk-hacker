@@ -5,6 +5,10 @@
 
 ---
 
+## 2026-03-08
+- Cron jobs do NOT source ~/.bashrc — env vars saved there (NOTTE_API_KEY, AGENTMAIL_API_KEY, etc.) are invisible to cron. Export them directly in `crontab -e` at the top (`NOTTE_API_KEY=xxx`) or at the start of each cron script (`export $(cat ~/.bashrc | grep KEY)`)
+- After setting up a new cron job, verify it ran correctly at the NEXT scheduled time — the AgentMail inbox check has been failing silently since the cron was created (Mar 5) with no one noticing until the Mar 7 log
+
 ## 2026-03-07
 - Always check vault/CLAUDE.md pricing table before quoting prices — MEMORY.md had stale pricing (€20/€50/€99) while the vault had current (€5/€15/€50)
 - Update WORKING.md after every status change (Stripe resubmission, ad campaign launch, etc.) — don't leave it for later
