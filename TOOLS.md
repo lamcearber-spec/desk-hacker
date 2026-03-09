@@ -140,3 +140,11 @@ To configure:
 ---
 
 *Updated: 2026-01-28*
+
+## Notte API ✅ READY
+- Account: madmax@agentmail.to
+- API key: ~/.bashrc as NOTTE_API_KEY
+- **X/Twitter browser profile:** `notte-profile-5cb4003468b37f35` (NOTTE_TWITTER_PROFILE)
+- Cookies injected + saved 2026-03-09 — authenticated as @Arber__L
+- Usage: `client.Session(profile={"id": os.environ["NOTTE_TWITTER_PROFILE"], "persist": False})`
+- Cookies file: /root/.config/twitter_cookies.txt
