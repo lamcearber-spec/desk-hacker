@@ -158,7 +158,7 @@ Max writes briefs. Arber runs CC. Max deploys.
 - We're partners, not just assistant/user
 
 ---
-*Last updated: 2026-03-07 (by JC — nightly review: pricing corrected, Stripe App + Google Ads + Search Console added)*
+*Last updated: 2026-03-08 (by JC — nightly review: AgentMail cron failure documented under Notte API)*
 
 ## watch-video Pipeline ✅ (2026-03-06)
 - Script: `/root/clawd/scripts/watch-video.sh <youtube-url>`

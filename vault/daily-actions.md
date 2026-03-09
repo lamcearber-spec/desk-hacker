@@ -71,3 +71,28 @@ Updated nightly by max-review cron (2:00 UTC).
 - ⚠️ vault/strategy/mission.md — stale (root-owned; Arber or Max must update it)
 
 ---
+
+## 2026-03-09
+
+### Max (actions from 2026-03-08 — heartbeat only, no main session)
+- Heartbeat received at 04:39 UTC — HEARTBEAT_OK, no action taken
+- DATEV Community Monitor cron ran at 08:00 UTC — no outcome logged in memory file (gap)
+- AgentMail inbox check cron ran — still failing (AGENTMAIL_API_KEY not in cron env, ongoing since Mar 5)
+- No main session with Arber (Sunday)
+
+### JC (2026-03-09 review)
+- Reviewed 2026-03-08 session: heartbeat only, no Arber interaction
+- Found 5 issues: (1) duplicate `## 2026-03-08` header in MAX-LESSONS.md — two separate sections, merged into one; (2) DATEV cron ran on Mar 8 but output not logged in memory/2026-03-08.md (unlike Mar 7 which was logged); (3) MEMORY.md "Last updated" timestamp was 2026-03-07 despite being updated on Mar 8 — fixed; (4) Arsenal Polymarket bet has been an open blocker for 5 days with no action — flagged as stale in WORKING.md; (5) March 14 DATEV deadline now 5 days away — escalated in WORKING.md
+- Fixed MAX-LESSONS.md: merged duplicate 2026-03-08 sections
+- Fixed MEMORY.md: updated "Last updated" timestamp to 2026-03-08
+- Fixed WORKING.md: escalated March 14 deadline to urgent, flagged Arsenal bet as stale, noted Google Ads spending to check
+- Wrote 2 lessons to MAX-LESSONS.md under 2026-03-09
+- vault/strategy/mission.md confirmed updated (last updated 2026-03-08) — previous blocker resolved
+
+### Blockers
+- 🚨 March 14 (5 days): DATEV auth-code reply email — urgent
+- ⚠️ AgentMail cron failure — still broken since 2026-03-05, 4 days without a fix
+- ⚠️ Arsenal bet (YES @ 28.5¢) — 5 days stale, needs decision or abandonment
+- ⚠️ Google Ads campaign €40 spent (2 days) — no performance check done
+
+---
