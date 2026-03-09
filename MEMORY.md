@@ -27,7 +27,7 @@
 - Target: German freelancers, Steuerberater, e-commerce sellers
 - Stack: Next.js + FastAPI + PostgreSQL + Celery + Docker
 - **Live URL:** https://konverter-pro.de (datev-bereit.de 301 redirects → expires March 16)
-- **Docker:** project `konverter-pro`, web container `konverter-pro-web-1`
+- **Docker:** containers: datevbereit-claude-datev-web-1, datevbereit-claude-datev-api-1, datevbereit-claude-datev-worker-1
 - **Repo path:** /home/muja/DatevBereit-Claude, branch: feature/shopify-connect
 - **Pricing:** Free €0 (1 conversion/mo), Starter €5/mo (20/mo), Pro €15/mo (100/mo), Business €50/mo (500/mo)
 - **First revenue:** €20 from tester (2026-02-17)
