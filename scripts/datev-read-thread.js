@@ -6,8 +6,18 @@ const CHROME_PATH = '/root/.cache/puppeteer/chrome/linux-144.0.7559.96/chrome-li
 const fs = require('fs');
 
 async function main() {
-  const searchTerm = process.argv[2] || 'Kontoauszug';
-  const cookies = JSON.parse(fs.readFileSync('/root/.config/datev/cookies.json'));
+  const threadUrl = process.argv[2];
+  if (!threadUrl) {
+    console.log('Usage: node datev-read-thread.js <thread-url>');
+    return;
+  }
+  
+  let cookies = {};
+  try {
+    cookies = JSON.parse(fs.readFileSync('/root/.config/datev/cookies.json'));
+  } catch (e) {
+    console.log('No cookies file');
+  }
   
   const browser = await puppeteer.launch({
     headless: 'new',
@@ -19,68 +29,79 @@ async function main() {
   await page.setViewport({ width: 1920, height: 1080 });
   await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
 
-  await page.setCookie(
-    { name: 'LiSESSIONID', value: cookies.LiSESSIONID, domain: '.datev-community.de' },
-    { name: 'LithiumUserSecure', value: cookies.LithiumUserSecure, domain: '.datev-community.de' },
-    { name: 'aws-waf-token', value: cookies['aws-waf-token'], domain: '.datev-community.de' }
-  );
-
-  // Search for topics
-  const searchUrl = `https://www.datev-community.de/t5/forums/searchpage/tab/message?q=${encodeURIComponent(searchTerm)}&filter=labels&sort_by=-topicPostDate`;
-  console.log(`Searching for: ${searchTerm}`);
-  
-  await page.goto(searchUrl, { waitUntil: 'networkidle2', timeout: 45000 });
-  await new Promise(r => setTimeout(r, 3000));
-  
-  // Find first thread link (pattern: /m-p/NNNNNN)
-  const threadUrl = await page.evaluate(() => {
-    const links = document.querySelectorAll('a');
-    for (const a of links) {
-      if (a.href && a.href.match(/\/m-p\/\d+/) && a.innerText.trim().length > 15) {
-        return a.href;
-      }
+  // Set cookies
+  const cookieList = [];
+  const cookieNames = ['LiSESSIONID', 'LithiumUserSecure', 'LithiumVisitor', 'LithiumUserInfo', 'AWSALB', 'AWSALBCORS'];
+  for (const name of cookieNames) {
+    if (cookies[name]) {
+      cookieList.push({ name, value: cookies[name], domain: '.datev-community.de' });
     }
-    return null;
-  });
-  
-  if (!threadUrl) {
-    console.log('No thread found');
-    await browser.close();
-    return;
+  }
+  if (cookieList.length > 0) {
+    await page.setCookie(...cookieList);
   }
   
-  console.log(`\nOpening thread: ${threadUrl}\n`);
-  await page.goto(threadUrl, { waitUntil: 'networkidle2', timeout: 45000 });
+  console.log(`Opening: ${threadUrl}\n`);
+  await page.goto(threadUrl, { waitUntil: 'networkidle2', timeout: 60000 });
   await new Promise(r => setTimeout(r, 2000));
   
   // Get title
-  const title = await page.title();
-  console.log(`Title: ${title}\n`);
+  const title = await page.evaluate(() => {
+    const h1 = document.querySelector('h1, .message-subject, .lia-message-subject');
+    return h1 ? h1.innerText.trim() : document.title;
+  });
   
-  // Get thread content
-  const content = await page.evaluate(() => document.body.innerText);
+  console.log(`=== ${title} ===\n`);
   
-  // Extract the main parts
-  const lines = content.split('\n').filter(l => l.trim().length > 0);
-  let output = '';
-  let inPost = false;
-  
-  for (const line of lines) {
-    // Skip navigation and metadata
-    if (line.includes('Abonnieren') || line.includes('RSS-Feed') || 
-        line.includes('Anmelden') || line.includes('Registrieren') ||
-        line.includes('Erste Schritte') || line.includes('Cookie') ||
-        line.includes('Copyright') || line.includes('AGB') ||
-        line.includes('Datenschutz') || line.includes('Impressum')) continue;
+  // Get posts
+  const posts = await page.evaluate(() => {
+    const results = [];
+    const postElements = document.querySelectorAll('.lia-message-body, .message-body, [class*="message-body"]');
     
-    output += line + '\n';
+    if (postElements.length > 0) {
+      postElements.forEach((el, i) => {
+        const parent = el.closest('.lia-message, .message, [class*="message"]');
+        let author = 'Unknown';
+        let date = '';
+        
+        if (parent) {
+          const authorEl = parent.querySelector('.lia-user-name, .author, [class*="author"]');
+          const dateEl = parent.querySelector('.DateTime, [class*="date"], [class*="time"]');
+          if (authorEl) author = authorEl.innerText.trim();
+          if (dateEl) date = dateEl.innerText.trim();
+        }
+        
+        results.push({
+          author,
+          date,
+          content: el.innerText.trim().substring(0, 2000)
+        });
+      });
+    } else {
+      // Fallback: get main content
+      const main = document.querySelector('main, .lia-component-article, article');
+      if (main) {
+        results.push({ author: 'Thread', date: '', content: main.innerText.trim().substring(0, 3000) });
+      }
+    }
+    
+    return results.slice(0, 10);
+  });
+  
+  if (posts.length === 0) {
+    console.log('Could not extract posts. Getting page text...\n');
+    const text = await page.evaluate(() => document.body.innerText);
+    console.log(text.substring(0, 3000));
+  } else {
+    posts.forEach((post, i) => {
+      console.log(`--- Post ${i+1} by ${post.author} ${post.date ? '(' + post.date + ')' : ''} ---`);
+      console.log(post.content);
+      console.log('');
+    });
   }
   
-  console.log('=== Thread Content ===\n');
-  console.log(output.substring(0, 5000));
-  
   await page.screenshot({ path: '/tmp/datev-thread.png', fullPage: true });
-  console.log('\n\nScreenshot saved to /tmp/datev-thread.png');
+  console.log('Screenshot saved to /tmp/datev-thread.png');
 
   await browser.close();
 }
