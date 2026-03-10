@@ -17,6 +17,7 @@ See: `vault/projects/datev-bereit/migration-konverter-pro.md`
 - [ ] Stripe Dashboard: update support email + Connect redirect URI to konverter-pro.de
 - [ ] Stripe Account C: complete listing (subtitle/about/features done 2026-03-04) → submit for review
 - [ ] Google Ads: fix conversion tracking, set up Search campaign
+- [ ] Test + deploy delete account fix (API client needs password param)
 
 ## Pending (CC needed)
 - [ ] Fix email verification tokens: Redis → PostgreSQL
