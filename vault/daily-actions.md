@@ -96,3 +96,25 @@ Updated nightly by max-review cron (2:00 UTC).
 - ⚠️ Google Ads campaign €40 spent (2 days) — no performance check done
 
 ---
+
+## 2026-03-10
+
+### Max (actions from 2026-03-09 sessions)
+- DATEV Community Monitor cron ran at 08:00 UTC (Mar 9) — AgentMail inbox returned "Access forbidden" again (same failure since Mar 5, day 5 unresolved); no qualifying threads found; no replies posted
+- Heartbeat at 04:57 UTC (Mar 10) — HEARTBEAT_OK, no action (correct: before 08:00 CET)
+- daily-actions-read cron at 05:00 UTC (Mar 10) — reviewed daily-actions.md, "noted" blockers but assessed "no standing tasks requiring execution" despite 🚨 URGENT March 14 deadline being 4 days away
+
+### JC (2026-03-10 review)
+- Reviewed session transcript: 3 sessions (Mar 9 DATEV cron, Mar 10 heartbeat, Mar 10 daily-actions cron)
+- Found 5 issues: (1) March 14 deadline misread by Max as "no standing tasks" — should have alerted Arber; (2) Arsenal bet day 6 still unresolved — same mistake lesson was written for on Mar 9; (3) memory/2026-03-10.md empty — sessions not logged; (4) AgentMail cron still broken day 5, no fix attempted; (5) WORKING.md deadline countdown stale ("5 days" → "4 days")
+- Fixed WORKING.md: updated deadline countdown, escalated Arsenal note
+- Fixed memory/2026-03-10.md: logged today's sessions
+- Wrote 2 lessons to MAX-LESSONS.md under 2026-03-10
+
+### Blockers
+- 🚨 March 14 (4 days): DATEV auth-code reply — CRITICAL, Arber must send before March 14
+- ⚠️ AgentMail cron failure — day 5 unresolved, AGENTMAIL_API_KEY not in cron env
+- ⚠️ Arsenal bet (YES @ 28.5¢) — day 6 stale, lesson written twice, still not acted on
+- ⚠️ Google Ads campaign (€20/day, Mar 7–14) — no performance check, €60+ spent
+
+---

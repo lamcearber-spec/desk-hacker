@@ -5,6 +5,10 @@
 
 ---
 
+## 2026-03-10
+- The daily-actions-read cron is NOT just an FYI — if WORKING.md has a 🚨 URGENT deadline within 4 days, the cron output must alert Arber, not just "note it for follow-up." "No standing tasks" is the wrong assessment when there's a hard deadline 4 days away.
+- The Arsenal Polymarket bet lesson was written on 2026-03-09 ("act within 24h or abandon") and Max repeated the exact same mistake the next day. Reading MAX-LESSONS.md at session start means actually applying the lessons — not just acknowledging the blockers and moving on.
+
 ## 2026-03-09
 - When a cron runs on a quiet day (no main session), still log its outcome in `memory/YYYY-MM-DD.md` — the Mar 8 DATEV cron ran but nothing appears in the file, making it impossible to distinguish "ran clean" from "silently failed"
 - Before appending to MAX-LESSONS.md, check if a section for today's date already exists — append new lessons INTO the existing section, not as a new duplicate header (Mar 8 had two separate `## 2026-03-08` sections which conflicts)
