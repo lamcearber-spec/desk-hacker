@@ -1,0 +1,23 @@
+[
+  {
+    "date": "2026-03-11",
+    "insight": "Pause broad match keywords \"datev schnittstelle\" (€9.83, 41% budget), \"kontoauszug konvertieren datev\" (€5.81, 25% budget), and \"datev import\" (0 clicks) immediately to halt €15.64 in conversion-less spend.",
+    "category": "analysis",
+    "metrics": {},
+    "cycle": 1
+  },
+  {
+    "date": "2026-03-11",
+    "insight": "Add exact/phrase match keywords [kontoauszug umwandeln] (50% CTR), [datev csv import] (9.09% CTR), and [sta datei datev importieren] (33.3% CTR) while scaling bids on winners to target €50-100 daily spend.",
+    "category": "analysis",
+    "metrics": {},
+    "cycle": 2
+  },
+  {
+    "date": "2026-03-11",
+    "insight": "Implement campaign-level negatives like \"datev\", \"addison\", \"lexware\", and \"skr 03\" to cut 50-70% irrelevant impressions and reduce CPC from €1.95.",
+    "category": "analysis",
+    "metrics": {},
+    "cycle": 3
+  }
+]
