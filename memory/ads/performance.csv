@@ -1,2 +1,2 @@
-date,campaign_id,campaign,campaign_status,ad_group_id,ad_group,impressions,clicks,cost,conversions,ctr,avg_cpc
-2026-03-11,23624070852,KP Search DE 20260306,ENABLED,189132187650,KP DATEV Keywords,339,12,23.395098,0.0,3.54,1.9495915
+date,campaign_id,campaign,ad_group_id,ad_group,impressions,clicks,cost,conversions,ctr,avg_cpc
+2026-03-13,23624070852,KP Search DE 20260306,189132187650,KP DATEV Keywords,28,3,6.05,0.0,10.71,2.02

@@ -27,9 +27,9 @@
 - Target: German freelancers, Steuerberater, e-commerce sellers
 - Stack: Next.js + FastAPI + PostgreSQL + Celery + Docker
 - **Live URL:** https://konverter-pro.de (datev-bereit.de 301 redirects → expires March 16)
-- **Docker:** containers: datevbereit-claude-datev-web-1, datevbereit-claude-datev-api-1, datevbereit-claude-datev-worker-1
+- **Docker:** containers: datevbereit-claude-api-1, datevbereit-claude-worker-1 (web runs NATIVELY under user `jc` port 3000 — NOT Docker; health check updated 2026-03-11)
 - **Repo path:** /home/muja/DatevBereit-Claude, branch: feature/shopify-connect
-- **Pricing:** Free €0 (1 conversion/mo), Starter €5/mo (20/mo), Pro €15/mo (100/mo), Business €50/mo (500/mo)
+- **Pricing (LIVE as of 2026-03-14):** Anonym (free, limited), Registriert (free, more features), Starter €20/mo, Professional €50/mo, Business €99/mo, Enterprise (contact). Yearly option with 2 months free on homepage.
 - **First revenue:** €20 from tester (2026-02-17)
 - **Auth-code deadline:** March 16, 2026 — send to DATEV, reply email by March 14
 - **Google Workspace:** konverter-pro.de domain added, support@/info@/arberlamce@ aliases live
@@ -60,9 +60,9 @@
 ### Polymarket
 - Tor running on server (SOCKS5 127.0.0.1:9050)
 - Wallet: 0x5910B772559959D039D31e86E9847b827B7C8C9E
-- ~$10.50 USDC remaining
-- Active bets: SpaceX 9 launches + Fidesz/Orbán
-- Pending: Arsenal YES token research (28.5¢)
+- **~$0.54 remaining** (0.458 POL + $0.50 USDC.e) as of 2026-03-14
+- Active bets: SpaceX 9 launches (6/9 done by Mar 14, looking good for ~$73 payout) + Fidesz/Orbán (April 2026 election)
+- Arsenal YES token (28.5¢) — ABANDONED (never placed)
 
 ### Notte API
 - Account: madmax@agentmail.to
@@ -74,6 +74,46 @@
 - Account: MadMaxInDaHaus
 - Used for datev-bereit/konverter-pro community outreach
 - Threads 64219 and 61102 in progress
+
+### SEO Content Machine (built 2026-03-15)
+- Serper API key: saved (key obtained 2026-03-15 from Arber via Discord — **original message in group chat, key should be rotated if exposed**)
+- GSC service account: gsc-reader@datevbereit.iam.gserviceaccount.com — new JSON key created 2026-03-15, saved by Max; ⚠️ full JSON key was posted in Discord group chat, **rotate this key**
+- Daily SEO report cron: 08:00 CET → Discord #general (verify exists: `crontab -l`)
+- 212 DATEV keywords: vault/projects/seo-content-machine/keywords/expanded-keywords.md
+- SERP baseline: vault/projects/seo-content-machine/keywords/serp-baseline.md
+- ⚠️ GSC property connected: datev-bereit.de (via sc-domain:datev-bereit.de) — confirm konverter-pro.de is also covered (old service account should already have access)
+
+### Agent Comms System (built 2026-03-14)
+- CLI: `/usr/local/bin/comms` — Redis-backed inter-agent messaging
+- Commands: send, read, peek, watch, history, status, clear
+- All messages mirrored to Discord #agent-comms (channel 1482454796588814396)
+- Max bot: ID 1469047155472994600 (existing OpenClaw bot)
+- JC bot: ID 1482465848848551936 (new bot, created by Arber)
+- Discord → Redis bridge: `comms-discord-poll` systemd service (polls every 30s)
+
+### Game Off (updated 2026-03-14)
+- Type: Mobile app (React Native/Expo)
+- What: Fully offline, ad-free classic game collection — competing with "Offline Games" by JindoBlu (~$130K+/mo)
+- **77 games across 10 categories** (Cards, Numbers, Logic, Words, Board, Match, Arcade, Jigsaw, Trivia, Kids)
+- **10,000+ variants** via difficulty × size system — do NOT market raw game count
+- **Unlock model (NEW — as of 2026-03-13):**
+  * 5 core games always free: Sudoku, Klondike, Wordle, Minesweeper, Snake
+  * 10 kids games always free (grouped by age: 2-4, 4-6, 6-8)
+  * 1 daily rotation game (changes at midnight UTC, deterministic)
+  * Premium = all 77 games + all variants
+  * Demo mode: 60s free play on any locked game → soft paywall
+- **Pricing: $2.99/mo** (no yearly or lifetime — keep it simple)
+- **Today screen:** Free users see daily game + always-free + locked preview. Premium users see "My Games" (bookmarks)
+- **Onboarding:** 8-screen premium flow (personalization quiz → instant play → win → notification → soft paywall with "Start Free" escape)
+- **IP safety:** No Pac-Man, Tetris, Frogger, Space Invaders names — all cloned under generic names
+- **Audio:** Ambient menu music only (placeholder files, swap later). No in-game music.
+- **i18n:** EN/DE/ES (111 strings each)
+- **IAP:** RevenueCat (placeholder keys — swap before launch)
+- Repo: github.com/lamcearber-spec/game-off, branch: master
+- Key differentiator: zero ads, infinite procedural replayability, kids section, boutique curation vs shovelware
+- Status: **77 engines built, all bugs fixed, logo ready** — Batches 1-5 complete (Mar 13-14). Next: final QA + App Store submission
+- Plans: vault/projects/game-off/game-off-replit-plan-v2.md (build brief) + vault/projects/game-off/cc-prompts-batch-1.md
+- Research: vault/projects/game-off/research/
 
 ### FamilienBoarding
 - Type: Mobile app (React Native/Expo)
@@ -149,7 +189,7 @@ Max writes briefs. Arber runs CC. Max deploys.
 - GitHub: Token configured (gh CLI authenticated)
 - X/Twitter: Cookies in ~/.bashrc (AUTH_TOKEN, CT0)
 - Server: Hetzner VPS at 46.224.214.8
-- Platform: **OpenClaw** (formerly Clawdbot) — current version 2026.2.14
+- Platform: **OpenClaw** (formerly Clawdbot) — current version v2026.3.13 (updated 2026-03-14)
 
 ## Working Style
 - Uses Claude Code for development
@@ -158,7 +198,7 @@ Max writes briefs. Arber runs CC. Max deploys.
 - We're partners, not just assistant/user
 
 ---
-*Last updated: 2026-03-08 (by JC — nightly review: AgentMail cron failure documented under Notte API)*
+*Last updated: 2026-03-13 (by JC — OpenClaw version updated to v2026.3.11, Arsenal bet marked abandoned, Game Off project added)*
 
 ## watch-video Pipeline ✅ (2026-03-06)
 - Script: `/root/clawd/scripts/watch-video.sh <youtube-url>`
@@ -167,3 +207,33 @@ Max writes briefs. Arber runs CC. Max deploys.
 - Rate limit: 30s between Whisper chunks, ~4 min for 1hr video
 - Setup docs for JC: `/root/clawd/env/WATCH-VIDEO-SETUP.md`
 - Triggered from WhatsApp via: send YouTube URL → I run it and summarize
+
+## Google Ads Pipeline ✅ (2026-03-11)
+- Script: `/root/clawd/scripts/ads-loop.py`
+- Commands: `full` | `pull` | `analyze` | `generate` | `memory`
+- Stack: Google Ads API → Grok 4.1 Fast (xAI, free) → ad copy generation
+- Data output: `memory/ads/` (CSVs, generated headlines/descriptions, learnings.json)
+- Uses compounding memory: logs learnings each cycle, feeds into next run
+- Cost: €0 (Grok 4.1 Fast free tier)
+- Current campaign: 23624070852 (Mar 7–14, €20/day) — run after campaign ends for final analysis
+
+## Google Business Profile (2026-03-11)
+- OAuth token: `scripts/google-business-auth.py` (auth `scripts/google-business-oauth-token.json`)
+- API blocked by quota limit (Google sets new Business Profile projects to 0 req/min by default)
+- Quota increase requested 2026-03-11 — Google may approve in ~5 business days
+- Until then: Arber must manually update name/logo at business.google.com (~2 min)
+- Profile still shows "DatevBereit" name — needs update to "Konverter Pro"
+
+## Google Search Console (2026-03-11)
+- Script: `scripts/google-search-console.py`
+- Stats (last 7 days, as of 2026-03-11): 23 impressions, 1 click on "datev converter" (position #1)
+- konverter-pro.de/de and /en both indexed
+
+## Infrastructure Notes (2026-03-11)
+- Ollama + Qwen 3.5 removed (freed 3.4 GB) — Ollama binary + all data deleted
+- QMD updated: 1.1.5 → 2.0.1 (installed at /opt/qmd)
+
+## SMTP Fix (2026-03-11)
+- Support email changed: support@datev-bereit.de → support@konverter-pro.de (old app password expired)
+- FRONTEND_URL added to .env + docker-compose.yml = https://konverter-pro.de (was missing, causing links to point to wrong domain)
+- Affected window: Mar 10 ~14:00 UTC to Mar 11 ~15:00 UTC — some users may not have received verification emails

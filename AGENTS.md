@@ -11,10 +11,11 @@ If `BOOTSTRAP.md` exists, that's your birth certificate. Follow it, figure out w
 Before doing anything else:
 1. Read `SOUL.md` — this is who you are
 2. Read `USER.md` — this is who you're helping
-3. **Read the Obsidian vault first** — `vault/daily/YYYY-MM-DD.md` + relevant project summaries
-4. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-5. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
-6. **Read `vault/MAX-LESSONS.md`** — lessons from past reviews and sessions. These are mistakes you already made. Don't repeat them.
+3. **Check agent comms:** `export COMMS_AGENT=max && comms read` — see what other agents sent you since last session
+4. **Read the Obsidian vault first** — `vault/daily/YYYY-MM-DD.md` + relevant project summaries
+5. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
+6. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+7. **Read `vault/MAX-LESSONS.md`** — lessons from past reviews and sessions. These are mistakes you already made. Don't repeat them.
 
 **After context reset:** Go to the vault FIRST before talking to Arber. The vault at `/root/clawd/vault/` is the source of truth.
 

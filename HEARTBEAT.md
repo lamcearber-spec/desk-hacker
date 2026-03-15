@@ -1,8 +1,9 @@
 # HEARTBEAT.md
 
 ## On Every Heartbeat
-1. Read `memory/active-tasks.md` — resume anything incomplete
-2. Check if daily memory file exists, create if not
+1. **Check agent comms:** `export COMMS_AGENT=max && comms read` — handle any messages from other agents
+2. Read `memory/active-tasks.md` — resume anything incomplete
+3. Check if daily memory file exists, create if not
 
 ## Periodic Checks (rotate, 2-4x daily, 08:00-22:00 CET)
 - Email inbox (if configured)

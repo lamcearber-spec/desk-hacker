@@ -19,5 +19,59 @@
     "category": "analysis",
     "metrics": {},
     "cycle": 3
+  },
+  {
+    "date": "2026-03-12",
+    "insight": "Pausing the 5 broad match keywords that were flagged but never disabled will immediately recover €47.29/day (89% of current spend) that is generating zero relevant conversions.",
+    "category": "analysis",
+    "cycle": 4
+  },
+  {
+    "date": "2026-03-12",
+    "insight": "Adding the campaign-level negative keyword list will block the irrelevant search terms that consumed ~24 of 27 paid clicks yesterday, including basic accounting questions, DATEV product searches, and VAT calculator queries.",
+    "category": "analysis",
+    "cycle": 5
+  },
+  {
+    "date": "2026-03-12",
+    "insight": "Increasing bids to €2.50–3.50 on the 4 proven exact/phrase winners (e.g., \"kontoauszug umwandeln\" at 50% CTR, \"sta datei in datev importieren\" at 33% CTR) and adding 13 high-intent exact match keywords will redirect the freed budget toward traffic that actually matches the product.",
+    "category": "analysis",
+    "cycle": 6
+  },
+  {
+    "date": "2026-03-13",
+    "insight": "Pausing the 5 broad match keywords (`datev schnittstelle`, `buchhaltung automatisieren`, `steuerberater export`, `datev import`, `kontoauszug umwandeln`) would immediately eliminate €49.25/day (78% of spend) that is generating zero relevant conversions.",
+    "category": "analysis",
+    "cycle": 7
+  },
+  {
+    "date": "2026-03-13",
+    "insight": "Only €15.50 of the €62.82 daily spend (25%) reached users with actual conversion intent, and the campaign's negative keyword list — recommended on Mar 11 and Mar 12 — remains unimplemented, allowing VAT/tax, DATEV-brand, and generic accounting queries to keep consuming budget.",
+    "category": "analysis",
+    "cycle": 8
+  },
+  {
+    "date": "2026-03-13",
+    "insight": "The top performer `datev csv import` (phrase match, 10.71% CTR) should have its bid raised to €3.00 and be scaled, while high-intent search terms like `kontoauszug pdf in csv umwandeln` (9 impressions) and `csv in mt940 umwandeln` (4 impressions) should be added as exact match keywords at €2.50.",
+    "category": "analysis",
+    "cycle": 9
+  },
+  {
+    "date": "2026-03-14",
+    "insight": "Ten enabled keywords have bids set to €0, effectively making them invisible to Google — fixing these (especially `datev csv import` at €3.00) is the single fastest way to scale from €6.05/day back toward the €20-25 budget on high-intent traffic.",
+    "category": "analysis",
+    "cycle": 10
+  },
+  {
+    "date": "2026-03-14",
+    "insight": "Negative keywords like \"vcard\", \"excel\", and \"kostenlos\" have been recommended for three consecutive days but remain unimplemented, meaning the campaign is still leaking spend on irrelevant queries such as \"csv in vcard umwandeln\" and free-seekers unlikely to convert.",
+    "category": "analysis",
+    "cycle": 11
+  },
+  {
+    "date": "2026-03-14",
+    "insight": "The broad match keyword `kontoauszug umwandeln` consumed 66% of yesterday's spend (€3.97) across irrelevant search terms with zero conversions and should be paused immediately, as was already recommended on Mar 13.",
+    "category": "analysis",
+    "cycle": 12
   }
 ]

@@ -32,24 +32,31 @@ curl -s -o /dev/null -w "%{http_code}" https://<domain>/health
 ### datev-bereit / konverter-pro (primary app — extra care)
 
 ```bash
-cd /root/clawd/projects/datev-bereit
+cd /root/clawd/projects/DatevBereit-Claude
 
 # Always check resource usage before deploying
 docker stats --no-stream
 
-git pull origin feature/shopify-connect   # or main
+git pull origin main   # or feature/shopify-connect
 
 # Run migrations
-docker exec datevbereit-claude-api alembic upgrade head
+docker exec datevbereit-claude-datev-api-1 alembic upgrade head
 
 # Restart only API + worker (not DB/Redis — avoids connection drops)
-docker compose restart api worker
+cd /home/muja/DatevBereit-Claude && docker compose -f docker-compose.hetzner.yml restart api worker
 
-# Full restart only if needed
-docker compose up -d --build api worker
+# --- Rebuild web (Next.js) with Stripe price IDs ---
+# IMPORTANT: volumes: [] does NOT work in compose merge. Use docker run to start web.
+cd /root/clawd/projects/DatevBereit-Claude
+source .env && docker compose -f docker-compose.yml -f docker-compose.prod.yml build web
+docker stop konverter-pro-web-1 && docker rm konverter-pro-web-1
+docker run -d --name konverter-pro-web-1 --network host --restart unless-stopped \
+  -e NODE_ENV=production -e NEXT_TELEMETRY_DISABLED=1 -e PORT=3000 -e HOSTNAME=0.0.0.0 \
+  konverter-pro-web:latest
 
 # Health check
 curl -s https://konverter-pro.de/api/v1/health | python3 -m json.tool
+curl -s -o /dev/null -w "%{http_code}" https://konverter-pro.de/
 ```
 
 ---

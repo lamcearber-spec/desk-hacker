@@ -27,11 +27,19 @@ obsidian-cli search-content "keyword" --vault /root/clawd/vault
 
 ## Browser
 
-- **Chrome path:** /root/.cache/puppeteer/chrome/linux-144.0.7559.96/chrome-linux64/chrome
+- **Chrome path (local):** /root/.cache/puppeteer/chrome/linux-144.0.7559.96/chrome-linux64/chrome
 - **Browserbase:** ✅ PAID — cloud browser sessions for JS-heavy/auth sites
 - **API Key:** In ~/.bashrc as BROWSERBASE_API_KEY
 - **Use when:** web_fetch fails, need login, need JS rendering
 - **Note:** X blocks headless browsers, use bird CLI instead
+
+### Arber's Desktop Chrome (Live Sessions) ✅ READY
+- **Profile:** `user` (use `profile="user"` in browser calls)
+- **Connection:** Tailscale → 100.77.8.37:9222 (desktop-09j1ffk)
+- **Chrome version:** 145.0.7632.160 (Windows)
+- **Requires:** Arber launches Chrome with `--remote-debugging-port=9222 --remote-debugging-address=0.0.0.0`
+- **Use for:** Stripe, Google Ads, App Store Connect, any logged-in service
+- **Setup date:** 2026-03-14
 
 ## Email (himalaya) ⚠️ NEEDS CONFIG
 
@@ -139,7 +147,38 @@ To configure:
 
 ---
 
-*Updated: 2026-01-28*
+## Agent Comms (comms) ✅ READY
+
+- **Binary:** /usr/local/bin/comms
+- **Backend:** Redis on localhost:6379 (datevbereit-claude-redis-1)
+- **Discord mirror:** #agent-comms (channel 1482454796588814396)
+- **Setup:** Each session must set identity: `export COMMS_AGENT=max` (or jc, cc, arber)
+- **Setup date:** 2026-03-14
+
+**Discord bot tokens (per-agent identity):**
+- Max bot: `1469047155472994600` (posts as "Max")
+- JC bot: `1482465848848551936` (posts as "JC")
+- Tokens stored in `/usr/local/bin/comms`
+
+Commands:
+```bash
+comms send <agent> <message>   # Instant delivery + Discord mirror
+comms watch [timeout]          # Block until message arrives (real-time, default 300s)
+comms read                     # Read + clear all pending messages
+comms peek                     # View without consuming
+comms history [count]          # Shared history log (last 500)
+comms status                   # Inbox counts for all agents
+```
+
+**At session start, every agent must:**
+```bash
+export COMMS_AGENT=max   # or jc, cc, arber
+comms read               # Check for pending messages
+```
+
+---
+
+*Updated: 2026-03-14*
 
 ## Notte API ✅ READY
 - Account: madmax@agentmail.to

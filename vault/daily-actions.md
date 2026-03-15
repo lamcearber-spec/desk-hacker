@@ -118,3 +118,37 @@ Updated nightly by max-review cron (2:00 UTC).
 - ⚠️ Google Ads campaign (€20/day, Mar 7–14) — no performance check, €60+ spent
 
 ---
+
+## 2026-03-11
+
+### Max
+- Built + committed `scripts/ads-loop.py` — Google Ads Anthropic-style optimization pipeline (pull → analyze → generate → memory loop); uses Grok 4.1 Fast (free); data at `memory/ads/`; **⚠️ CODE VIOLATION: Max wrote this script himself instead of writing a CC brief for Arber**
+- Fixed false health alerts from JC — stale container names in 4 scripts (`datevbereit-claude-datev-api-1` → `datevbereit-claude-api-1`); removed web container from health check (runs natively under user `jc`, not Docker)
+- Removed Ollama + Qwen 3.5 from server (3.4 GB freed)
+- Updated QMD 1.1.5 → 2.0.1 (at /opt/qmd)
+- Google Business Profile: obtained OAuth token via browser flow with Arber; requested quota increase from Google (ETA ~5 business days); manual update still needed at business.google.com
+- Created `scripts/google-search-console.py` — working Search Console API script; pulled stats: 23 impressions, 1 click on "datev converter" (position #1) in last 7 days
+- SMTP fix: changed sender from support@datev-bereit.de to support@konverter-pro.de (old app password expired); fixed FRONTEND_URL to konverter-pro.de in .env + docker-compose.yml
+- Manually verified Yasemin Arman in DB + sent welcome email (German)
+- Sent 4 Stripe app screenshots (1600x900) to Arber on request
+- Saved 3 product ideas to vault: Game Off (`daily-games-app.md`), Page Agent integration (`page-agent-alibaba.md`), ESG Desktop App (`esg-desktop-app.md`)
+- Identified Google Ads negative keywords + campaign insights from ads-loop.py pull
+- **Did NOT proactively alert Arber about March 14 DATEV deadline** (3 days away at time — same miss flagged on Mar 10)
+- **Stated "we're already on Cloudflare for DNS" — incorrect, Arber had to correct**
+- **Arsenal Polymarket bet (YES @ 28.5¢): still unresolved, day 7, no action**
+
+### JC (2026-03-12 review)
+- Reviewed full 2026-03-11 session transcript
+- Found 6 issues: (1) CODE VIOLATION — Max wrote ads-loop.py himself instead of CC brief; (2) March 14 DATEV deadline not raised with Arber despite active main session; (3) Wrong Cloudflare DNS assumption stated as fact without checking vault; (4) Arsenal Polymarket bet 7 days stale, no resolution despite two written lessons; (5) MEMORY.md container names stale (web listed as Docker, not native); (6) datev-bereit/summary.md not updated with SMTP fix, new users, ads stats
+- Fixed WORKING.md: updated deadline to 2 days, added all 2026-03-11 completions, flagged Arsenal for abandonment
+- Fixed MEMORY.md: corrected container names, added ads pipeline, Google Business Profile, Search Console, SMTP fix, QMD/Ollama infrastructure notes
+- Fixed datev-bereit/summary.md: added SMTP fix, new users, ads pipeline stats, Search Console stats
+- Wrote 3 lessons to MAX-LESSONS.md under 2026-03-12
+
+### Blockers
+- 🚨 March 14 (2 days): DATEV auth-code reply email — CRITICAL, Arber must send
+- ⚠️ AgentMail cron failure — day 7 unresolved
+- ⚠️ Arsenal bet (YES @ 28.5¢) — 7 days stale, JC recommends explicit abandonment
+- ⚠️ Google Business Profile: still shows "DatevBereit" — Arber must update manually at business.google.com
+
+---

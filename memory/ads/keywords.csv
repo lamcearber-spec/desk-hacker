@@ -1,36 +1,46 @@
-campaign,ad_group,keyword,match_type,impressions,clicks,cost,conversions,ctr
-KP Search DE 20260306,KP DATEV Keywords,buchhaltung automatisieren,BROAD,46,1,1.95,0.0,2.17
-KP Search DE 20260306,KP DATEV Keywords,datev schnittstelle,BROAD,131,5,9.83,0.0,3.82
-KP Search DE 20260306,KP DATEV Keywords,lexware datev,BROAD,18,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,datev csv import,PHRASE,11,1,1.97,0.0,9.09
-KP Search DE 20260306,KP DATEV Keywords,datev import,BROAD,33,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,shopify datev export,EXACT,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,stripe datev export,EXACT,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,steuerberater export,BROAD,1,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,bankdaten konvertieren,BROAD,3,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,stripe datev export,PHRASE,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,shopify buchhaltung automatisieren,BROAD,1,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,shopify datev buchhaltung,PHRASE,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,datev buchungen importieren,PHRASE,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,stripe buchhaltung datev,PHRASE,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,bank statement datev format,PHRASE,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,kontoauszug konvertieren datev,BROAD,90,3,5.81,0.0,3.33
-KP Search DE 20260306,KP DATEV Keywords,datev export tool,BROAD,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,sta datei datev importieren,EXACT,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,kontoauszug in datev format,PHRASE,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,csv datev konvertieren,PHRASE,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,bankumsätze datev import,PHRASE,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,stripe auszahlung buchhaltung,BROAD,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,shopify abrechnungen buchen,BROAD,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,paypal umsätze datev,PHRASE,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,zahlungsanbieter buchhaltung,BROAD,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,kontoauszug buchhaltung,BROAD,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,bank csv datev,BROAD,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,kontoauszug datev exportieren,EXACT,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,kontoauszug in datev importieren,PHRASE,1,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,kontoauszug konvertieren,BROAD,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,bank statement konvertieren,BROAD,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,csv konvertieren buchhaltung,BROAD,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,kontoauszug umwandeln,BROAD,4,2,3.84,0.0,50.0
-KP Search DE 20260306,KP DATEV Keywords,bank csv konvertieren,BROAD,0,0,0.0,0.0,0.0
-KP Search DE 20260306,KP DATEV Keywords,e-commerce buchhaltung deutschland,BROAD,0,0,0.0,0.0,0.0
+campaign,ad_group,keyword,match_type,status,bid,resource_name,impressions,clicks,cost,conversions,ctr
+KP Search DE 20260306,KP DATEV Keywords,buchhaltung automatisieren,BROAD,PAUSED,0,customers/5868493025/adGroupCriteria/189132187650~302510648322,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,datev schnittstelle,BROAD,PAUSED,0,customers/5868493025/adGroupCriteria/189132187650~312505014614,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,lexware datev,BROAD,PAUSED,0,customers/5868493025/adGroupCriteria/189132187650~353586118736,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,datev csv import,PHRASE,ENABLED,0,customers/5868493025/adGroupCriteria/189132187650~358420216931,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,datev import,BROAD,PAUSED,0,customers/5868493025/adGroupCriteria/189132187650~360232115720,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,pdf to mt940 converter,EXACT,ENABLED,2.12,customers/5868493025/adGroupCriteria/189132187650~454467156864,2,1,2.08,0.0,50.0
+KP Search DE 20260306,KP DATEV Keywords,shopify datev export,EXACT,ENABLED,0,customers/5868493025/adGroupCriteria/189132187650~676490060782,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,buchungsunterlagen,EXACT,PAUSED,2.15,customers/5868493025/adGroupCriteria/189132187650~748562600843,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,stripe datev export,EXACT,ENABLED,0,customers/5868493025/adGroupCriteria/189132187650~1138784163308,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,steuerberater export,BROAD,PAUSED,0,customers/5868493025/adGroupCriteria/189132187650~1184513697582,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,bankdaten konvertieren,BROAD,PAUSED,0,customers/5868493025/adGroupCriteria/189132187650~1640070405118,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,belege hochladen datev unternehmen online,EXACT,PAUSED,2.2,customers/5868493025/adGroupCriteria/189132187650~1732477224476,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,https apps datev de,EXACT,PAUSED,2.2,customers/5868493025/adGroupCriteria/189132187650~1943802650608,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,datev format schnittstellenbeschreibung,EXACT,PAUSED,2.16,customers/5868493025/adGroupCriteria/189132187650~2066059875076,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,stripe datev export,PHRASE,ENABLED,2.5,customers/5868493025/adGroupCriteria/189132187650~2204321905439,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,программа datev в германии,EXACT,PAUSED,2.19,customers/5868493025/adGroupCriteria/189132187650~2389433171229,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,shopify buchhaltung automatisieren,BROAD,PAUSED,0,customers/5868493025/adGroupCriteria/189132187650~2407429628867,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,shopify datev buchhaltung,PHRASE,ENABLED,2.5,customers/5868493025/adGroupCriteria/189132187650~2431292029434,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,datev buchungen importieren,PHRASE,ENABLED,0,customers/5868493025/adGroupCriteria/189132187650~2438343037908,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,stripe buchhaltung datev,PHRASE,ENABLED,0,customers/5868493025/adGroupCriteria/189132187650~2438546349242,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,bank statement datev format,PHRASE,ENABLED,0,customers/5868493025/adGroupCriteria/189132187650~2467836380580,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,kontoauszug konvertieren datev,BROAD,PAUSED,0,customers/5868493025/adGroupCriteria/189132187650~2467836380620,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,datev export tool,BROAD,ENABLED,0,customers/5868493025/adGroupCriteria/189132187650~2467836380780,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,sta datei datev importieren,EXACT,ENABLED,2.5,customers/5868493025/adGroupCriteria/189132187650~2469085373696,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,kontoauszug in datev format,PHRASE,ENABLED,2.0,customers/5868493025/adGroupCriteria/189132187650~2469085373936,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,csv datev konvertieren,PHRASE,ENABLED,2.0,customers/5868493025/adGroupCriteria/189132187650~2469085373976,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,bankumsätze datev import,PHRASE,ENABLED,2.0,customers/5868493025/adGroupCriteria/189132187650~2469085374136,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,stripe auszahlung buchhaltung,BROAD,ENABLED,2.0,customers/5868493025/adGroupCriteria/189132187650~2469085378696,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,shopify abrechnungen buchen,BROAD,ENABLED,2.0,customers/5868493025/adGroupCriteria/189132187650~2469085378736,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,paypal umsätze datev,PHRASE,ENABLED,2.0,customers/5868493025/adGroupCriteria/189132187650~2469085378776,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,zahlungsanbieter buchhaltung,BROAD,ENABLED,1.8,customers/5868493025/adGroupCriteria/189132187650~2469085378936,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,kontoauszug buchhaltung,BROAD,ENABLED,0,customers/5868493025/adGroupCriteria/189132187650~2469270196009,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,bank csv datev,BROAD,ENABLED,0,customers/5868493025/adGroupCriteria/189132187650~2469270197009,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,kontoauszug datev exportieren,EXACT,ENABLED,0,customers/5868493025/adGroupCriteria/189132187650~2469276503189,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,kontoauszug in datev importieren,PHRASE,ENABLED,0,customers/5868493025/adGroupCriteria/189132187650~2469276503229,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,bankumsaetze datev import,PHRASE,ENABLED,2.0,customers/5868493025/adGroupCriteria/189132187650~2469300698766,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,paypal umsaetze datev,PHRASE,ENABLED,2.0,customers/5868493025/adGroupCriteria/189132187650~2469300698806,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,buchung auf der habenseite,EXACT,PAUSED,2.16,customers/5868493025/adGroupCriteria/189132187650~2470692876928,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,sta datei in datev importieren,EXACT,ENABLED,2.17,customers/5868493025/adGroupCriteria/189132187650~2470692877088,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,kontoauszug konvertieren,BROAD,ENABLED,0,customers/5868493025/adGroupCriteria/189132187650~2471435301098,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,bank statement konvertieren,BROAD,PAUSED,0,customers/5868493025/adGroupCriteria/189132187650~2471435301258,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,csv konvertieren buchhaltung,BROAD,PAUSED,0,customers/5868493025/adGroupCriteria/189132187650~2471435301298,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,kontoauszug umwandeln,BROAD,ENABLED,0,customers/5868493025/adGroupCriteria/189132187650~2471435301538,26,2,3.97,0.0,7.69
+KP Search DE 20260306,KP DATEV Keywords,bank csv konvertieren,BROAD,ENABLED,0,customers/5868493025/adGroupCriteria/189132187650~2471435301578,0,0,0.0,0.0,0.0
+KP Search DE 20260306,KP DATEV Keywords,e-commerce buchhaltung deutschland,BROAD,PAUSED,0,customers/5868493025/adGroupCriteria/189132187650~2472053787595,0,0,0.0,0.0,0.0

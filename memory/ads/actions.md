@@ -1,0 +1,330 @@
+## 2026-03-12 07:00 - Added Keywords
+- [PHRASE] bankumsaetze datev import @ EUR2.00
+- [PHRASE] paypal umsaetze datev @ EUR2.00
+
+## 2026-03-12 07:00 - Added Keywords
+- [EXACT] belege hochladen datev unternehmen online @ EUR2.20
+- [EXACT] buchung auf der habenseite @ EUR2.16
+- [EXACT] buchungsunterlagen @ EUR2.15
+- [EXACT] datev format schnittstellenbeschreibung @ EUR2.16
+- [EXACT] https apps datev de @ EUR2.20
+- [EXACT] pdf to mt940 converter @ EUR2.12
+- [EXACT] sta datei in datev importieren @ EUR2.17
+- [EXACT] программа datev в германии @ EUR2.19
+
+## 2026-03-12 07:00 - Added Negatives
+- pos
+- sevdesk
+- lexoffice
+- navision
+- agenda
+- freeware
+- stellenangebot
+- job
+- gehalt
+- praktikum
+- telefonnummer
+- hotline
+- kontakt datev
+- datev app
+- datev fehler
+- datev handbuch
+- datev düsseldorf
+- datev online üben
+- datev prüfung
+- datev demo
+- datev hardware
+- skr 03
+- skr 04
+- skr 42
+- skr42
+- steuerschlüssel
+- buchungsschlüssel
+- t konten vorlage
+- kontenplan buchhaltung
+- rechnungswesen buchungssätze
+- rabatte verbuchen
+- reisekostenabrechnung
+- überleitungsrechnung
+- opos liste
+- buchführung soll
+- scannerbox
+- smartverify
+- belegtransfer
+- gdpdu
+- e rechnung software
+- digitales kassenbuch
+- addison datev export
+- addison datev import
+- addison datev schnittstelle
+- addison export nach datev
+- agenda export nach datev
+- belegtransfer datev
+- buchführung soll
+- buchungsschlüssel 94 datev
+- buchungsschlüssel datev übersicht
+- datenübernahme addison nach datev
+- datev app herunterladen
+- datev belegtransfer xml schnittstelle
+- datev demo prüfung
+- datev düsseldorf
+- datev fehler 403
+- datev gdpdu export
+- datev handbuch 2025
+- datev hardware empfehlung
+- datev kontenrahmen skr 03 pdf 2024
+- datev online üben
+- datev postversandformat
+- datev prüfung online
+- datev steuerschlüssel tabelle 2025
+- datev telefonnummer
+- digitales kassenbuch app
+- dvsdrw datei datev import
+- e rechnung software kostenlos
+- extf datei
+- gdpdu daten datev
+- gdpdu daten exportieren
+- gdpdu daten importieren datev
+- gdpdu daten in datev einspielen
+- gdpdu export datev
+- gdpdu schnittstelle
+- kassenabrechnung beispiel
+- kassenbuch vorlage
+- kontenplan buchhaltung
+- lexware kassenbuch datev export
+- lexware lohn und gehalt datev export
+- navision datev schnittstelle
+- opos liste datev richtig lesen
+- postversandformat datev konvertieren
+- rabatte verbuchen buchungssatz
+- rechnungswesen buchungssätze
+- retrograder kassenbericht vorlage
+- sap datev schnittstelle
+- scannerbox
+- scannerbox alternative
+- scannerbox datev
+- scannerbox mandant connect ii
+- skr 03 1755
+- skr 03 skr 04 gegenüberstellung excel
+- skr 42 buchungsbeispiele
+- skr42 excel
+- skr42 pdf
+- smartverify datev download
+- steuerschlüssel 19 datev
+- steuerschlüssel datev skr 03
+- t konten vorlage
+- umsatzsteuer rechner
+- umsatzsteuerrechner
+- vectron kasse datev schnittstelle
+- vorlage reisekostenabrechnung datev
+- überleitungsrechnung eür bilanz vorlage excel
+
+## 2026-03-12 07:00 - Optimization Applied
+- Seed keywords added: 2
+- Promoted from search terms: 8
+- Negatives added: 105
+- Unknown terms: 57
+
+## 2026-03-12 08:49 - Paused Keywords
+- buchhaltung automatisieren
+- datev schnittstelle
+- datev import
+- steuerberater export
+- kontoauszug konvertieren datev
+
+## 2026-03-12 08:49 - Paused Keywords
+- buchungsunterlagen
+- belege hochladen datev unternehmen online
+- https apps datev de
+- datev format schnittstellenbeschreibung
+- программа datev в германии
+- buchung auf der habenseite
+
+## 2026-03-12 08:49 - Paused Keywords
+- lexware datev
+- bankdaten konvertieren
+- shopify buchhaltung automatisieren
+- bank statement konvertieren
+- csv konvertieren buchhaltung
+- e-commerce buchhaltung deutschland
+
+## 2026-03-13 07:00 - Added Negatives
+- pennylane
+- etl
+- pathway
+- datev scanner
+- datev bremen
+- datev nürnberg
+- datev eg
+- datev lernen
+- datev lernvideo
+- datev registrierung
+- datev kosten
+- datev belege
+- datev upload
+- datev online
+- datev magazin
+- datev symbole
+- datev systempartner
+- datev konto apps
+- datev rechnungen hochladen
+- belege hochladen
+- belege scannen
+- upload mobil datev
+- apps datev de
+- https apps
+- unternehmen online kosten
+- unternehmen online lernvideo
+- ikr
+- kontenrahmen
+- bewirtung
+- lohnarten
+- lohn und gehalt
+- summen und saldenliste
+- rückstellungsspiegel
+- habenseite
+- buchungssatz
+- buchungsunterlagen
+- skonto
+- kontenplan
+- kontenrahmen
+- kassenbuch
+- kassenabrechnung
+- kassenbericht
+- umsatzsteuer
+- umsatzsteuervoranmeldung
+- vat number
+- vat certificate
+- vat valid
+- vat prüfen
+- uid nummer
+- ust id
+- steuernummer prüfen
+- einfuhrumsatzsteuer
+- differenzbesteuerung
+- oss verfahren
+- ausfuhrlieferung
+- gelangensbestätigung
+- reisekosten
+- vorlage
+- muster
+- rechnungswesen
+- e rechnung
+- xrechnung
+- 3 skonto formulierung
+- abgabe umsatzsteuervoranmeldung 2026
+- agenda daten exportieren
+- apps datev de
+- ausfuhr und abnehmerbescheinigung für umsatzsteuerzwecke
+- ausfuhrlieferung ustg
+- belege hochladen datev
+- belege hochladen datev unternehmen online
+- bewirtungsbeleg vorlage datev
+- bilanz vorlage excel
+- buchung auf der habenseite
+- buchungssatz für rückstellungen
+- buchungsunterlagen
+- datev
+- datev ascii import vorlage
+- datev belege hochladen
+- datev belege scannen und hochladen
+- datev bewirtungskosten buchen
+- datev bremen
+- datev eg nürnberg
+- datev export gdpdu
+- datev format schnittstellenbeschreibung
+- datev konto apps
+- datev konto apps datev
+- datev lernen
+- datev lernvideos kostenlos
+- datev magazin
+- datev online anwendung
+- datev rechnungen hochladen
+- datev registrierungscode eingeben
+- datev scanner
+- datev scanner app
+- datev scanner empfehlung
+- datev schnittstelle
+- datev schnittstellenbeschreibung
+- datev symbole bedeutung
+- datev systempartner finden
+- datev unternehmen online kosten mandant
+- datev unternehmen online lernvideo
+- datev upload mobil app
+- differenzbesteuerung buchen skr03
+- dtvf
+- dtvf format
+- einfuhrumsatzsteuer verbuchen
+- etl
+- eu steuernummer prüfen online
+- export
+- gelangensbestätigung
+- gelangensbestätigung innergemeinschaftliche lieferung
+- https apps datev de
+- ikr kontenrahmen
+- konvertax
+- lohnarten datev übersicht pdf
+- muss die umsatzsteuer id des kunden auf der rechnung stehen
+- oss verfahren umsatzsteuer
+- pathway
+- pathway solutions
+- pennylane
+- qualifizierte ust id abfrage
+- rückstellungsspiegel datev
+- rückstellungsspiegel excel
+- skonto berechnen formel
+- steuernummer prüfen ausland
+- steuernummer prüfen online
+- summen und saldenliste vorlage excel
+- uid nummer deutschland
+- uid nummer deutschland prüfen
+- uid nummer prüfen
+- uid nummer prüfen deutschland
+- umsatzsteuer
+- umsatzsteuer berechnen
+- umsatzsteuer berechnen formel
+- umsatzsteuer berechnen von brutto
+- umsatzsteuer fälligkeit zahlung
+- umsatzsteuer herausrechnen
+- umsatzsteuer herausrechnen formel
+- umsatzsteuer id herausfinden
+- umsatzsteuer id prüfen
+- umsatzsteuer id prüfen deutschland
+- umsatzsteuer id suche
+- umsatzsteuer id suchen
+- umsatzsteuer mehrwertsteuer rechner
+- umsatzsteuer richtlinie
+- umsatzsteuerrechner gewerbe
+- umsatzsteuerrechner online
+- umsatzsteuerverprobung muster datev
+- umsatzsteuervoranmeldung grenzen 2026
+- upload mobil datev
+- ust id beispiel
+- ust id nummer deutschland
+- valid vat number germany
+- vat certificate deutschland
+- vat prüfen
+- vat valid number
+- was bedeutet umsatzsteuer
+- was kostet unternehmen online datev
+- was sind b2b umsätze
+- wie hoch ist umsatzsteuer
+- wie hoch umsatzsteuer
+- wo finde ich die umsatzsteuer id nummer
+- woher bekomme ich meine umsatzsteuer id
+- xrechnung reader kostenlos
+- österreichischer kontenplan
+- übersicht lohnarten datev
+- программа datev в германии
+
+## 2026-03-13 07:00 - Paused Keywords
+- datev schnittstelle
+
+## 2026-03-13 07:00 - Optimization Applied
+- Negatives added: 167
+- Keywords paused: 1
+- Unknown terms: 49
+
+## 2026-03-14 07:00 - Optimization Applied
+No changes needed
+
